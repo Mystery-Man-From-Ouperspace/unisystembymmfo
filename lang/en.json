@@ -1,0 +1,320 @@
+{
+  "UNISYSTEM.XP": "XP",
+  "UNISYSTEM.Core": "Core",
+  "UNISYSTEM.Equipment": "Equipment",
+  "UNISYSTEM.Primary Attributes": "Primary Attributes",
+  "UNISYSTEM.Strength": "Strength",
+  "UNISYSTEM.Dexterity": "Dexterity",
+  "UNISYSTEM.Constitution": "Constitution",
+  "UNISYSTEM.Intelligence": "Intelligence",
+  "UNISYSTEM.Perception": "Perception",
+  "UNISYSTEM.Willpower": "Willpower",
+  "UNISYSTEM.Secondary Attributes": "Secondary Attributes",
+  "UNISYSTEM.Life Points": "Life Points",
+  "UNISYSTEM.Endurance": "Endurance",
+  "UNISYSTEM.Speed": "Speed",
+  "UNISYSTEM.Initiative": "Initiative",
+  "UNISYSTEM.Essence Pool": "Essence Pool",
+  "UNISYSTEM.Description": "Description",
+  "UNISYSTEM.Profession": "Profession",
+  "UNISYSTEM.Qualities & Pulling Strings": "Qualities + Pulling Strings",
+  "UNISYSTEM.Drawbacks": "Drawbacks",
+  "UNISYSTEM.Points": "Points",
+  "UNISYSTEM.Skills": "Skills",
+  "UNISYSTEM.Name": "Name",
+  "UNISYSTEM.Level": "Level",
+  "UNISYSTEM.Aspects": "Aspects",
+  "UNISYSTEM.Powers": "Powers/Metaphysics",
+  "UNISYSTEM.Power": "Power",
+  "UNISYSTEM.Lifting Capacity": "Lifting Capacity",
+  "UNISYSTEM.Current Weight": "Current Weight",
+  "UNISYSTEM.Max Carry Limit": "Max Carry Limit",
+  "UNISYSTEM.Weapons" : "Weapons",
+  "UNISYSTEM.Damage": "Damage",
+  "UNISYSTEM.Capacity": "Capacity",
+  "UNISYSTEM.EV": "EV",
+  "UNISYSTEM.Equipped Items": "Equipped Items",
+  "UNISYSTEM.Qty": "Qty",
+  "UNISYSTEM.Armor Value": "Armor Value",
+  "UNISYSTEM.Items": "Items",
+
+  "UNISYSTEM.undefined": "undefined",
+
+  "UNISYSTEM.PreHeroic": "Pre-heroic",
+  "UNISYSTEM.Heroic": "Heroic",
+  "UNISYSTEM.Powered": "Powered",
+  
+  "UNISYSTEM.Gifted": "Gifted",
+  "UNISYSTEM.LesserGifted": "Lesser Gifted",
+  "UNISYSTEM.Mundane": "Mundane",
+  "UNISYSTEM.Bast": "Bast",
+  "UNISYSTEM.Spirit": "Spirit",
+  "UNISYSTEM.Undead": "Undead",
+
+  "UNISYSTEM.Norm": "Norm",
+  "UNISYSTEM.Survivor": "Survivor",
+  "UNISYSTEM.Inspired": "Inspired",
+
+  "UNISYSTEM.MundanePreHeroic": "Mundane ● Pre-Heroic",
+  "UNISYSTEM.MundaneHeroic": "Mundane ● Heroic",
+  "UNISYSTEM.MundaneVeteran": "Mundane ● Veteran",
+  "UNISYSTEM.PsychicNeoTalented": "Psychic ● Neo-Talented",
+  "UNISYSTEM.PsychicTalented": "Psychic ● Talented",
+  "UNISYSTEM.PsychicTalentedVeteran": "Psychic ● Talented Veteran",
+  "UNISYSTEM.NDDHeroic": "NDD ● Heroic",
+  "UNISYSTEM.NDDVeteran": "NDD ● Veteran",
+
+  "UNISYSTEM.Hopeless": "Hopeless",
+  "UNISYSTEM.Forlorn": "Forlorn",
+  "UNISYSTEM.Exhausted": "Exhausted",
+  "UNISYSTEM.Dying": "Dying",
+  "UNISYSTEM.Semi-Conscious": "Semi-Conscious",
+  "UNISYSTEM.Severely Injured": "Severely Injured",
+  "UNISYSTEM.Lightly Encumbered": "Lightly Encumbered",
+  "UNISYSTEM.Moderately Encumbered": "Moderately Encumbered",
+  "UNISYSTEM.Heavily Encumbered": "Heavily Encumbered",
+
+  "UNISYSTEM.Attributes": "Attributes",
+  "UNISYSTEM.HP": "HP",
+  "UNISYSTEM.Essence": "Essence",
+
+  "UNISYSTEM.Range": "Range",
+  "UNISYSTEM.Damage Multiplier": "Damage Multiplier",
+  "UNISYSTEM.Damage Type": "Damage Type",
+  "UNISYSTEM.Ammo Type": "Ammo Type",
+  "UNISYSTEM.Cost": "Cost",
+
+  "UNISYSTEM.Equipped": "Equipped",
+  "UNISYSTEM.Quantity": "Quantity",
+  "UNISYSTEM.RP": "RP",
+  "UNISYSTEM.Space": "Space",
+
+  "UNISYSTEM.quality": "quality",
+  "UNISYSTEM.drawback": "drawback",
+  "UNISYSTEM.skill": "skill",
+  "UNISYSTEM.power": "power",
+  "UNISYSTEM.aspect": "aspect",
+  "UNISYSTEM.weapon": "weapon",
+  "UNISYSTEM.item": "item",
+  "UNISYSTEM.locations": "location",
+  "UNISYSTEM.facilities": "facility",
+  "UNISYSTEM.staff": "staff",
+  "UNISYSTEM.weaponery": "weaponery",
+  "UNISYSTEM.gear": "gear",
+  "UNISYSTEM.vehicles": "vehicle",
+  "UNISYSTEM.science": "science resource",
+  "UNISYSTEM.medical": "medical resource",
+  "UNISYSTEM.restricted": "restricted resource",
+
+  "UNISYSTEM.New": "New",
+
+  "UNISYSTEM.Weight": "Weight",
+  "UNISYSTEM.Acceleration": "Acceleration",
+  "UNISYSTEM.Toughness": "Toughness",
+  "UNISYSTEM.Handling": "Handling",
+  "UNISYSTEM.Damage Cpty": "Damage Cpty",
+  "UNISYSTEM.Accuracy": "Accuracy",
+  "UNISYSTEM.Availability": "Availability",
+
+  "UNISYSTEM.Apply modifiers": "Apply modifiers from the character's applicable Qualities, Drawbacks, or Skills.",
+  "UNISYSTEM.Simple Test": "Simple Test: 2x Attribute",
+  "UNISYSTEM.Difficult Test": "Difficult Test: 1x Attribute",
+
+  "UNISYSTEM.All Tests suffer -3 penalty": "All Tests suffer -3 penalty",
+  "UNISYSTEM.Mental tests suffer a -1 penalty": "Mental tests suffer a -1 penalty",
+  "UNISYSTEM.All Tests suffer -2 penalty": "All Tests suffer -2 penalty",
+  "UNISYSTEM.Survival Test required to avoid instant death": "Survival Test required to avoid instant death",
+  "UNISYSTEM.Willpower test required to regain consciousness, penalized by the number their HP is below 0" :
+               "Willpower test required to regain consciousness, penalized by the number their HP is below 0",
+  "UNISYSTEM.Most actions suffer -1 through -5 penalty": "Most actions suffer -1 through -5 penalty",
+
+  "UNISYSTEM.Simple": "Simple",
+  "UNISYSTEM.Difficult": "Difficult",
+  "UNISYSTEM.None": "None",
+
+  "UNISYSTEM.Qualities": "Qualities",
+
+  "UNISYSTEM.Attribute Test": "Attribute Test",
+  "UNISYSTEM.Roll Modifier": "Roll Modifier",
+
+  "UNISYSTEM.Roll Again": "Roll Again",
+  "UNISYSTEM.Roll": "Roll",
+  "UNISYSTEM.Cancel": "Cancel",
+  "UNISYSTEM.Modifier": "Modifier",
+  "UNISYSTEM.Result": "Result",
+  "UNISYSTEM.Modifier2": "Modif.",
+  "UNISYSTEM.Result2": "Result",
+
+  "UNISYSTEM.Rule of 10!": "Rule of 10!",
+  "UNISYSTEM.Rule of 1!": "Rule of 1!",
+
+  "UNISYSTEM.# of Shots": "# of Shots",
+  "UNISYSTEM.Firing Mode": "Firing Mode",
+  "UNISYSTEM.None/Melee": "None/Melee",
+  "UNISYSTEM.Semi-Auto": "Semi-Auto",
+  "UNISYSTEM.Burst Fire": "Burst Fire",
+  "UNISYSTEM.Auto-Fire": "Auto-Fire",
+  "UNISYSTEM.Damage Roll": "Damage Roll",
+  "UNISYSTEM.Detail": "Detail",
+  "UNISYSTEM.You do not have enough ammo loaded to fire": "You do not have enough ammo loaded to fire",
+  "UNISYSTEM.rounds!": "rounds!",
+
+  "UNISYSTEM.Attribute Roll": "Attribute Roll",
+  "UNISYSTEM.Weapon Roll": "Weapon Roll",
+
+  "UNISYSTEM.If a ranged weapon": "If a ranged weapon",
+  "UNISYSTEM.select how many shots": ", select how many shots to take and select weapon firing mode. The number of shots fired will be reduced from the weapon's current load capacity. Make sure you have enough ammo in the chamber!",
+  "UNISYSTEM.Otherwise, leave default and click roll.": "Otherwise, leave default and click roll.",
+
+  "UNISYSTEM.Two-Handed": "Two-Handed",
+  "UNISYSTEM.Slashing": "Slashing",
+  "UNISYSTEM.Stabbing": "Stabbing",
+  "UNISYSTEM.Normal Bullet": "Normal Bullet",
+  "UNISYSTEM.Hollow Point": "Hollow Point",
+  "UNISYSTEM.Armor Piercing": "Armor Piercing",
+  "UNISYSTEM.Shotgun": "Shotgun",
+  "UNISYSTEM.Explosive": "Explosive",
+  "UNISYSTEM.Poison": "Poison",
+  "UNISYSTEM.Corrosive": "Corrosive",
+
+  "UNISYSTEM.Endurance Loss": "Endurance Loss",
+  "UNISYSTEM.Essence Loss": "Essence Loss",
+
+  "UNISYSTEM.Test": "Test",
+  
+  "UNISYSTEM.User Modifier": "User Modifier",
+  
+  "UNISYSTEM.Rule of One Re-Roll": "Rule of One Re-Roll",
+  "UNISYSTEM.Rule of Ten Re-Roll": "Rule of Ten Re-Roll",
+
+  "UNISYSTEM.Light Mode": "Light Mode",
+  "UNISYSTEM.Checking this option enables Light Mode":
+            "Checking this option enables Light Mode, stripping away the dark mode aesthetics from the sheets.",
+
+  "UNISYSTEM.Aegis-NDD": "Play NDD Agents",
+  "UNISYSTEM.Checking this option enables NDD wheel instead of Aegis wheel": "Only works with Eden Studios Conspiracy X Module (to be released). Checking this option enables NDD wheel instead of Aegis wheel when game is paused.",
+          
+
+  "UNISYSTEM.Locations": "Locations",
+  "UNISYSTEM.Facilities": "Facilities",
+  "UNISYSTEM.Staff": "Staff",
+
+  "UNISYSTEM.Weaponery": "Weaponery",
+  "UNISYSTEM.Gear": "Gear",
+  "UNISYSTEM.Vehicles": "Vehicle",
+
+  "UNISYSTEM.Resources": "Resources",
+  "UNISYSTEM.Science Resources": "Sciencific Resources",
+  "UNISYSTEM.Medical Resources": "Medical Resources",
+  "UNISYSTEM.Restricted Resources": "Restricted Resources",
+    
+  "UNISYSTEM.Explosives": "Explosives",
+  "UNISYSTEM.Ammunition": "Ammunition",
+  "UNISYSTEM.CombatAccessories": "Combat Accessory",
+
+  "UNISYSTEM.Surveillance": "Surveillance",
+  "UNISYSTEM.IntrusionEquipment": "Intrusion Equip.",
+  "UNISYSTEM.Electronics": "Electronics",
+  "UNISYSTEM.software": "Software",
+  "UNISYSTEM.PersonnelEquipment": "Personnel Equip.",
+
+  "UNISYSTEM.Vehicles & Accessories": "Vehicles & Accessories",
+  "UNISYSTEM.VehicleAccessories": "Vehicle Acessor.",
+
+  "UNISYSTEM.Location": "Location",
+  "UNISYSTEM.Type": "Type",
+  "UNISYSTEM.Prerequisite": "Prerequisite",
+
+  "UNISYSTEM.Borrowed": "* Borrowed",
+  "UNISYSTEM.LocationA": "Location A",
+  "UNISYSTEM.LocationB": "Location B",
+  "UNISYSTEM.LocationC": "Location C",
+  "UNISYSTEM.LocationD": "Location D",
+
+  "UNISYSTEM.Delete Item": "Delete Item",
+
+  "UNISYSTEM.Quality": "Quality",
+  "UNISYSTEM.Pulling Strings": "Pulling Strings",
+  "UNISYSTEM.Other": "Other",
+  "UNISYSTEM.Psychic Ability": "Psychic Ability",
+  "UNISYSTEM.Ritual": "Ritual",
+
+  "UNISYSTEM.Current AP": "Current AP",
+  "UNISYSTEM.Lvl": "Lvl",
+  "UNISYSTEM.Leader": "Leader",
+  "UNISYSTEM.Member": "Member",
+  "UNISYSTEM.Cell Members": "Cell Members",
+
+  "UNISYSTEM.Options": "Options",
+  "UNISYSTEM.Apply modifiers creature": "Apply modifiers from the creature's Skills & Aspects.",
+
+  "UNISYSTEM.Military": "Military",
+  "UNISYSTEM.Intelligence2": "Intelligence",
+  "UNISYSTEM.Science & Research": "Science & Research",
+  "UNISYSTEM.Criminal": "Criminal",
+  "UNISYSTEM.Law Enforcement": "Law Enforcement",
+  "UNISYSTEM.Media": "Media",
+  "UNISYSTEM.Paranormal": "Paranormal",
+  "UNISYSTEM.Civilian": "Civilian",
+  
+  "UNISYSTEM.Drama": "Drama",
+  "UNISYSTEM.Drama Points": "Drama Points",
+
+  "UNISYSTEM.Vehicle Type & Accessories": "Vehicle Type & Accessories",
+
+  "UNISYSTEM.Classic": "Classic",
+  "UNISYSTEM.CJ Carella's WitchCraft/SorCellerie": "CJ Carella's WitchCraft/SorCellerie",
+  "UNISYSTEM.CJ Carella's Armageddon: the End Times": "J Carella's Armageddon: the End Times",
+  "UNISYSTEM.All Flesh Must Be Eaten": "ll Flesh Must Be Eaten",
+  "UNISYSTEM.Terra Primate": "Terra Primate",
+  "UNISYSTEM.Conspiracy X, 2nd Edition": "Conspiracy X, 2nd Edition",
+
+  "UNISYSTEM.Cinematic": "Cinematic",
+  "UNISYSTEM.Buffy: the Vampire Slayer": "Buffy: the Vampire Slayer",
+  "UNISYSTEM.Angel: the RPG": "Angel: the RPG",
+  "UNISYSTEM.Army of Darkness": "Army of Darkness",
+  "UNISYSTEM.City of Heroes": "City of Heroes",
+  "UNISYSTEM.Ghosts of Albion": "Ghosts of Albion",
+  "UNISYSTEM.Eldritch Skies": "Eldritch Skies",
+
+  "UNISYSTEM.Settings.gamesystem.name": "Game System",
+  "UNISYSTEM.Settings.gamesystem.hint": "Game System to be used.",
+  "UNISYSTEM.Settings.gamesystem.terraprimate": "Terra Primate",
+  "UNISYSTEM.Settings.gamesystem.afmbe": "All Flesh Must Be Eaten",
+  "UNISYSTEM.Settings.gamesystem.witchcraft": "WitchCraft",
+  "UNISYSTEM.Settings.gamesystem.conx": "Conspiracy X",
+
+  "UNISYSTEM.terraprimate": "Terra Primate",
+  "UNISYSTEM.afmbe": "AFMBE",
+  "UNISYSTEM.witchcraft": "WitchCraft",
+  "UNISYSTEM.conx": "Conspiracy X",
+
+ 
+
+  "TYPES": {
+    "Actor": {
+      "character": "Character",
+      "creature": "Creature",
+      "cell": "Cell",
+      "vehicle": "Vehicle"
+    },
+    "Item": {
+      "quality": "Quality",
+      "drawback": "Drawback",
+      "skill": "Skill",
+      "aspect": "Aspect",
+      "power": "Power",
+      "weapon": "Weapon",
+      "item": "Item",
+      "locations": "Location",
+      "facilities": "Facility",
+      "staff": "Staff",
+      "weaponery": "Weaponery",
+      "gear": "Gear",
+      "vehicles": "Vehicle",
+      "science": "Science Resource",
+      "medical": "Medical Resource",
+      "restricted": "Restricted Resource"
+    }
+  }
+}

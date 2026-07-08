@@ -1,0 +1,8 @@
+2026/01/07-17:45:02.909 1bfc Recovering log #173
+2026/01/07-17:45:02.917 1bfc Delete type=0 #173
+2026/01/07-17:45:02.917 1bfc Delete type=3 #171
+2026/01/07-17:45:21.428 2ad8 Level-0 table #178: started
+2026/01/07-17:45:21.428 2ad8 Level-0 table #178: 0 bytes OK
+2026/01/07-17:45:21.428 2ad8 Delete type=0 #176
+2026/01/07-17:45:21.428 2ad8 Manual compaction at level-0 from '!macros!3AMLBDe7110VuhAg' @ 72057594037927935 : 1 .. '!macros!UohDo1excxjXEDpM' @ 0 : 0; will stop at (end)
+2026/01/07-17:45:21.428 2ad8 Manual compaction at level-1 from '!macros!3AMLBDe7110VuhAg' @ 72057594037927935 : 1 .. '!macros!UohDo1excxjXEDpM' @ 0 : 0; will stop at (end)

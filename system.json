@@ -1,0 +1,84 @@
+{
+    "id": "unisystembymmfo",
+    "title": "Classic Unisystem (Unofficial) by MMFO",
+    "description": "An unofficial digital system for playing any Classic Unisystem system by Eden Studios",
+    "version": "0.1.4",
+    "authors": [
+      {
+        "name": "Mystery Man From Outerspace (aka David Duke OVNI)",
+        "url": ""
+      },
+      {
+        "name": "after DogBoneZone's AFMBE system",
+        "url": ""
+      }
+    ],
+    "esmodules": ["modules/main.js"],
+    "styles": ["styles/main.css"],
+    "languages": [
+        {
+          "lang": "en",
+          "name": "English",
+          "path": "lang/en.json"
+        },
+          {
+          "lang": "fr",
+          "name": "Français",
+          "path": "lang/fr.json"
+        }
+    ],
+    "compatibility": {
+      "minimum": "12",
+      "verified": "14",
+      "maximum": "14"
+    },
+    "grid": {
+      "distance": 5,
+      "units": "ft"
+    },
+    "primaryTokenAttribute": "hp",
+    "secondaryTokenAttribute": "endurance_points",
+    "packs": [
+      {
+        "name": "zener-cards-color",
+        "label": "Zener Cards (Color)",
+        "system": "unisystembymmfo",
+        "path": "packs/zener-cards-color",
+        "type": "Cards",
+        "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+        },
+        "flags": {}
+      },
+      {
+        "name": "zener-cards-bandw",
+        "label": "Zener Cards (B&W)",
+        "system": "unisystembymmfo",
+        "path": "packs/zener-cards-bandw",
+        "type": "Cards",
+        "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+        },
+        "flags": {}
+      },
+      {
+        "name": "unisystembymmfo-macros",
+        "label": "Zener Cards Macros",
+        "system": "unisystembymmfo",
+        "path": "packs/unisystembymmfo-macros",
+        "type": "Macro",
+        "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+        },
+        "flags": {}
+      }
+    ],
+    "url": "https://github.com/Mystery-Man-From-Ouperspace/conspiracyx/",
+    "background": "/systems/unisystembymmfo/images/unisystem_background/zone_51.jpg",
+    "manifest": "https://github.com/Mystery-Man-From-Ouperspace/unisystembymmfo/releases/download/unisystembymmfo/system.json",
+    "download": "https://github.com/Mystery-Man-From-Ouperspace/unisystembymmfo/releases/download/0.1.4/release-014.zip",
+    "license": "LICENSE.txt"
+}

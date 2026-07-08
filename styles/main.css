@@ -1,0 +1,1087 @@
+/* ------------------------------------------- 
+        Fonts
+ ---------------------------------------------*/
+
+ @font-face {
+     font-family: "Industria";
+     src: url(../fonts/Industria-Solid.otf);
+ }
+ @font-face {
+    font-family: "FormataCondensed";
+    src: url(../fonts/FormataCondensed.ttf);
+}
+@font-face {
+    font-family: "FormataCondensedBold";
+    src: url(../fonts/FormataCondensed_Bold.ttf);
+}
+@font-face {
+    font-family: "FormataCondensedItalic";
+    src: url(../fonts/FormataCondensed_Italic.ttf);
+}
+@font-face {
+    font-family: "JollyLodgerRegular";
+    src: url(../fonts/JollyLodger-Regular.ttf);
+}
+@font-face {
+    font-family: "KellsFLF";
+    src: url(../fonts/KellsFLF.ttf)
+} 
+@font-face {
+    font-family: "WhosFrankRegular";
+    src: url(../fonts/WhosFrank%20Regular.ttf)
+} 
+
+ /* ------------------------------------------- 
+        Global Styles
+ ---------------------------------------------*/
+
+
+
+ .unisystembymmfo.sheet.actor .trash {
+    width: 20px;
+    text-align: right;
+    padding-right: 5px;
+ }
+
+
+
+ .unisystembymmfo.sheet.actor .window-content,
+ .unisystembymmfo.sheet.item .window-content {
+    background: rgb(22, 22, 22);
+    color: rgb(220, 220, 220);
+}
+
+.unisystembymmfo.sheet.actor .entity-link,
+.unisystembymmfo.sheet.actor .content-link,
+.unisystembymmfo.sheet.item .entity-link,
+.unisystembymmfo.sheet.item .content-link {
+   color: black;
+}
+
+.unisystembymmfo.sheet.actor button,
+.unisystembymmfo.sheet.item button {
+    color: rgb(231, 231, 231);
+    background:rgb(85, 85, 85);
+    border: 1px solid black;
+    height: 25px;
+    line-height: 10px;
+}
+
+.unisystembymmfo.sheet.actor input,
+.unisystembymmfo.sheet.actor select,
+.unisystembymmfo.sheet.item input,
+.unisystembymmfo.sheet.item select {
+    color: rgb(231, 231, 231);
+}
+
+.unisystembymmfo.sheet.item .window-content .editable {
+    background: rgb(45, 51, 56);
+}
+
+.unisystembymmfo option {
+    background: rgb(22, 22, 22);
+}
+
+.app.window-app.dialog .window-content {
+    background: rgb(22, 22, 22);
+}
+
+.app.window-app.dialog .dialog-content {
+    color: rgb(231, 231, 231);
+    padding: 0 5px;
+    background: rgb(41, 50, 59);
+}
+
+.app.window-app.dialog .dialog-buttons button {
+    color: rgb(231, 231, 231);
+    background: rgb(85, 85, 85);
+    border: 1px solid black;
+}
+
+.window-header {
+    background: rgb(22, 22, 22);
+}
+
+ .unisystembymmfo-dialog-menu {
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+     background: rgb(41, 50, 59);
+     color: rgb(231, 231, 231);
+ }
+
+ .unisystembymmfo h1,
+ .unisystembymmfo h2,
+ .unisystembymmfo-dialog-menu h1,
+ .unisystembymmfo-dialog-menu h2 {
+     font-family: "Industria";
+     width: 100%;
+ }
+ .unisystembymmfo.afmbe h1,
+ .unisystembymmfo.afmbe h2,
+ .afmbe .unisystembymmfo-dialog-menu h1,
+ .afmbe .unisystembymmfo-dialog-menu h2 {
+     font-family: "JollyLodgerRegular";
+     width: 100%;
+ }
+
+
+ .unisystembymmfo.witchcraft h1,
+ .unisystembymmfo.witchcraft h2,
+ .witchcraft .unisystembymmfo-dialog-menu h1,
+ .witchcraft .unisystembymmfo-dialog-menu h2 {
+     font-family: "KellsFLF";
+     width: 100%;
+ }
+  .unisystembymmfo.terraprimate h1,
+ .unisystembymmfo.terraprimate h2,
+ .terraprimate .unisystembymmfo-dialog-menu h1,
+ .terraprimate .unisystembymmfo-dialog-menu h2 {
+     font-family: "WhosFrankRegular";
+     width: 100%;
+ }
+
+ .unisystembymmfo-dialog-menu .menu-flex-container-row {
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+ }
+
+ .unisystembymmfo-dialog-menu .menu-flex-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 0 0 20px 0;
+     width: 50%;
+     height: 100%;
+     gap: 5px;
+ }
+
+ .unisystembymmfo-dialog-menu .vertical-column {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+     height: 100%;
+     text-align: center;
+ }
+
+ .unisystembymmfo-dialog-menu-text-box {
+     display: flex;
+     flex-direction: column;
+     background: rgba(124, 118, 118, 0.493);
+     padding: 5px;
+ }
+
+ .unisystembymmfo-dialog-menu .attribute-input {
+     width: 100%;
+ }
+
+ .unisystembymmfo-dialog-menu .table-center-align {
+     text-align: center;
+ }
+
+ .unisystembymmfo-dialog-menu .table-bold-text {
+     font-weight: bold;
+ }
+
+ .unisystembymmfo-dialog-menu input,
+ .unisystembymmfo-dialog-menu select {
+     color: white;
+     width: 100%;
+ }
+
+ .unisystembymmfo-dialog-menu option {
+    background: rgb(41, 50, 59);
+ }
+
+ .unisystembymmfo-tags-flex-container,
+ .unisystembymmfo-tags-flex-container-item {
+     color: black;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: flex-start;
+     flex-wrap: wrap;
+     gap: 5px;
+     padding: 0 0 5px 0;
+ }
+
+ .unisystembymmfo-tags-flex-container div {
+     background-color: rgba(131, 15, 15, 0.705);
+     color: white;
+     border-radius: 5px;
+     padding: 0 5px;
+     max-width: 100%;
+ }
+
+ .unisystembymmfo-tags-flex-container-item div {
+    background-color: rgba(0, 0, 0, 0.705);
+    color: white;
+    border-radius: 5px;
+    padding: 0 5px;
+    max-width: 100%;
+ }
+
+ .unisystembymmfo h2 {
+     margin: 0;
+     font-size: 22px;
+ }
+
+ .unisystembymmfo .table-left-align {
+     text-align: left;
+     padding: 0 0 0 10px;
+ }
+
+ .unisystembymmfo .header-with-button {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: flex-start;
+     gap: 5px;
+ }
+
+ .unisystembymmfo .header-with-button button {
+     width: 30px;
+ }
+
+ .unisystembymmfo button:hover,
+ .unisystembymmfo .item-name:hover,
+ .unisystembymmfo .profile-img:hover {
+     cursor: pointer;
+ }
+
+ .unisystembymmfo .item-name:hover {
+     /* font-weight: bold; */
+     color: rgb(255, 255, 255);
+     filter: drop-shadow(0px 0px 6px #af010a);
+ }
+
+ .unisystembymmfo .item-name-flex-container {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: flex-start;
+     gap: 5px;
+ }
+
+ .unisystembymmfo .fa-dice-d20:hover {
+     cursor: pointer;
+     color: darkred;
+ }
+
+ .unisystembymmfo .table-center-align {
+     text-align: center;
+ }
+
+.unisystembymmfo .table-flex-cell {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.unisystembymmfo .table-flex-cell input {
+    width: 30px;
+}
+
+.unisystembymmfo .table-equipped {
+    text-align: center;
+    width: 50px;
+}
+
+.unisystembymmfo .item input {
+    height: 15px;
+    width: 15px;
+}
+
+.unisystembymmfo tbody tr:nth-child(even) {
+    background: rgba(46, 46, 46, 0.541);
+}
+
+ /* ------------------------------------------- 
+        Chat Message Defaults
+ ---------------------------------------------*/
+
+ .chat-message h1,
+ .chat-message h2,
+ .chat-message .rule-of-chat-text {
+     font-family: "Industria";
+ }
+/*
+ .chat-message h1,
+ .chat-message h2,
+ .chat-message .rule-of-chat-text {
+     font-family: "JollyLodgerRegular";
+ }
+ .chat-message h1,
+ .chat-message h2,
+ .chat-message .rule-of-chat-text {
+     font-family: "KellsFLF";
+ }
+ .chat-message h1,
+ .chat-message h2,
+ .chat-message .rule-of-chat-text {
+     font-family: "WhosFrankRegular";
+ }
+*/
+
+ .unisystembymmfo-chat-roll-table {
+     text-align: center;
+     font-weight: bold;
+ }
+
+ .unisystembymmfo-chat-roll-table thead tr th.w30pc,
+ .unisystembymmfo-chat-roll-table tbody tr td.w30pc  {
+     width: 32%;
+ }
+
+ .chat-message button {
+     cursor: pointer;
+ }
+
+ .chat-message .message-header img {
+    border-radius: 5px;
+    border: 0.5px solid black;
+    max-width: 80px;
+    /* max-height: 50px; */
+    margin-right: 4px;
+  }
+
+  
+
+  .chat-message .message-header .message-sender .avatar:hover {
+    cursor: default;
+  }
+
+  .chat-message .message-header .message-sender {
+    width: 100px;
+  }
+  
+
+  /* ------------------------------------------- 
+        TinyMCE Editor
+ ---------------------------------------------*/
+
+ .editor h1,
+ .editor h2 {
+    font-family: "Industria";
+ }
+/*
+ .afmbe .editor h1,
+ .afmbe .editor h2 {
+    font-family: "JollyLodgerRegular";
+ }
+ .witchcraft .editor h1,
+ .witchcraft .editor h2 {
+    font-family: "KellsFLF";
+ }
+ .witchcraft .editor h1,
+ .witchcraft .editor h2 {
+    font-family: "WhosFrankRegular";
+ }
+ }
+*/
+
+ .unisystembymmfo .bio-container .editor {
+     height: 200px;
+     width: 100%;
+ }
+
+ .unisystembymmfo .description-container .editor {
+    min-height: 300px;
+    width: 100%;
+ }
+
+ .unisystembymmfo .editor-content {
+     min-height: 200px;
+     max-height: 100%;
+ }
+
+ .unisystembymmfo .editor .tox-toolbar__group button {
+    background: rgba(190, 190, 190, 0.692);
+    color: black;
+ }
+
+ .unisystembymmfo .editor .tox-edit-area {
+     background: rgba(255, 255, 255, 0.808);
+ }
+
+ /* ------------------------------------------- 
+        Character Sidebar
+ ---------------------------------------------*/
+
+ .unisystembymmfo .sheet-flex-container {
+     display: flex;
+     flex-direction: row;
+     align-items: top;
+     justify-content: stretch;
+     flex-wrap: nowrap;
+     height: 100%;
+     background: rgb(62, 64, 66);
+ }
+
+ .unisystembymmfo .sheet-sidebar {
+     display: flex;
+     flex-direction: column;
+     min-width: 250px;
+     height: 100%;
+     border-right: 1px solid;
+     padding: 0 5px;
+     background: rgb(90, 93, 95);
+ }
+
+ .unisystembymmfo .sheet-sidebar input {
+     text-align: center;
+ }
+
+ .unisystembymmfo .sheet-body {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     height: 100%;
+     padding: 0 5px;
+     gap: 10px;
+ }
+ 
+ .unisystembymmfo .header-container {
+     position: relative;
+     top: 0;
+ }
+
+ .unisystembymmfo .info-container {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .unisystembymmfo .polaroid-container {
+     position: relative;
+ }
+
+ .unisystembymmfo .polaroid {
+     height: 250px;
+     border: none;
+     z-index: -1;
+ }
+
+ .unisystembymmfo .profile-img {
+     position: absolute;
+     /* top: 30px; */
+     top: 31px;
+     /* left: 32px; */
+     left: 31.5px;
+     border: 1px solid black;
+     /* height: 153px; */
+     height: 147.5px;
+     /* width: 145px; */
+     width: 147.5px;
+     transform: rotate(-3deg);
+     z-index: 1;
+ }
+ 
+ /*
+ .unisystembymmfo #sheet-logo {
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 50px;
+     border: none;
+     z-index: +2;
+ }
+*/
+
+ .unisystembymmfo .sheet-nav-container {
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     background: rgba(41, 0, 0, 0.555);
+     z-index: 5;
+     font-family: "Industria";
+     font-size: x-large;
+     border-radius: 3px;
+     padding: 2px;
+ }
+ .unisystembymmfo.afmbe .sheet-nav-container {
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     background: rgba(41, 0, 0, 0.555);
+     z-index: 5;
+     font-family: "JollyLodgerRegular";
+     font-size: x-large;
+     border-radius: 3px;
+     padding: 2px;
+ }
+  .unisystembymmfo.witchcraft .sheet-nav-container {
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     background: rgba(41, 0, 0, 0.555);
+     z-index: 5;
+     font-family: "KellsFLF";
+     font-size: x-large;
+     border-radius: 3px;
+     padding: 2px;
+ }
+   .unisystembymmfo.terraprimate .sheet-nav-container {
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     background: rgba(41, 0, 0, 0.555);
+     z-index: 5;
+     font-family: "WhosFrankRegular";
+     font-size: x-large;
+     border-radius: 3px;
+     padding: 2px;
+ }
+
+ 
+ .unisystembymmfo .sheet-nav-container details > summary {
+    cursor: pointer;
+ }
+ 
+ .unisystembymmfo .sheet-nav-container #characterTypeSelect {
+    font-size: large;
+ }
+
+
+
+
+ .unisystembymmfo .sheet-nav {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     border: none !important;
+ }
+
+ .unisystembymmfo .sheet-nav a {
+     padding: 0 10px;
+ }
+
+ .unisystembymmfo .sheet-nav .active {
+     text-decoration: underline;
+ }
+
+ .unisystembymmfo .profile-tags-container {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     z-index: 3;
+ }
+
+ .unisystembymmfo .profile-tags-container .tags-flex-container {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+ }
+
+ .unisystembymmfo .tags-flex-container .tag {
+     border-radius: 5px;
+     background:rgba(124, 118, 118, 0.493);
+     color: darkred;
+     padding: 5px;
+     font-size: smaller;
+ }
+
+ .unisystembymmfo .xp-container {
+     position: absolute;
+     top: 0;
+     right: 0;
+     width: 50px;
+     text-align: center;
+ }
+
+ .unisystembymmfo .xp-flex-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .unisystembymmfo .charname {
+     width: 100%;
+ }
+
+ .unisystembymmfo .attribute-container {
+    margin: 0 0 10px 0;
+ }
+
+ .unisystembymmfo .resource-container {
+     display: flex;
+     flex-direction: column;
+     padding: 0 5px;
+ }
+
+ .unisystembymmfo .resource {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     flex-wrap: nowrap;
+     border-bottom: 1px solid rgb(145, 145, 145);
+     padding: 5px 0;
+ }
+
+ .unisystembymmfo .resource-values {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: nowrap;
+     gap: 5px;
+     width: 50%;
+ }
+
+ .unisystembymmfo .resource .attribute input {
+     width: 75%;
+     height: 20px;
+     color: white;
+ }
+
+ .unisystembymmfo .resource .secondaryAttribute input {
+    width: 50px;
+    height: 20px;
+    color: white;
+ }
+
+ .unisystembymmfo .resource button {
+     width: 50%;
+     height: 25px;
+     line-height: 10px;
+     color: white;
+     border: 1px solid black;
+ }
+
+ .unisystembymmfo #characterTypeSelect {
+     font-family: "Industria";
+     font-size: x-large;
+     text-align: center !important;
+ }
+ .unisystembymmfo.afmbe #characterTypeSelect {
+     font-family: "JollyLodgerRegular";
+     font-size: x-large;
+     text-align: center !important;
+ }
+  .unisystembymmfo.witchcraft #characterTypeSelect {
+     font-family: "KellsFLF";
+     font-size: x-large;
+     text-align: center !important;
+ }
+   .unisystembymmfo.terraprimate #characterTypeSelect {
+     font-family: "WhosFrankRegular";
+     font-size: x-large;
+     text-align: center !important;
+ }
+
+ .unisystembymmfo #attributes-header {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: flex-start;
+     gap: 5px;
+ }
+
+  /* ------------------------------------------- 
+        Character Body Content
+ ---------------------------------------------*/
+
+ .unisystembymmfo .bio-container {
+     display: flex;
+     flex-direction: column;
+     border-bottom: 1px solid;
+ }
+
+ .unisystembymmfo .skill-item-container {
+     display: flex;
+     flex-direction: row;
+     align-items: top;
+     gap: 10px;
+ }
+
+ .unisystembymmfo .qualities-container,
+ .unisystembymmfo .drawbacks-container,
+ .unisystembymmfo .skills-container,
+ .unisystembymmfo .powers-container {
+     width: 50%;
+     border-radius: 3px;
+ }
+
+ .unisystembymmfo .equipment-header {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     padding: 5px;
+     margin: 0 0 5px 0;
+     background: rgba(124, 118, 118, 0.493);
+ }
+
+ .unisystembymmfo .encumbrance-resource {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     font-family: "Industria";
+ }
+ .unisystembymmfo.afmbe .encumbrance-resource {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     font-family: "JollyLodgerRegular";
+ }
+  .unisystembymmfo.witchcraft .encumbrance-resource {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     font-family: "KellsFLF";
+ }
+   .unisystembymmfo.terraprimate .encumbrance-resource {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     font-family: "WhosFrankRegular";
+ }
+
+ .unisystembymmfo .encumbrance-resource div {
+     font-size: 20px;
+ }
+
+ .unisystembymmfo .weapon-table,
+ .unisystembymmfo .item-table,
+ .unisystembymmfo .qualities-container,
+ .unisystembymmfo .drawbacks-container,
+ .unisystembymmfo .skills-container,
+ .unisystembymmfo .powers-container,
+ .unisystembymmfo .locations-table,
+ .unisystembymmfo .facilities-table,
+ .unisystembymmfo .staff-table,
+ .unisystembymmfo .weaponery-table,
+ .unisystembymmfo .gear-table,
+ .unisystembymmfo .vehicles-table,
+ .unisystembymmfo .science-table,
+ .unisystembymmfo .medical-table,
+ .unisystembymmfo .restricted-table {
+     margin: 10px 0 0 0;
+     background: rgba(78, 78, 78, 0.603);
+ }
+
+ .unisystembymmfo .armor-button-cell button {
+     max-width: 75%;
+     height: 18px;
+     line-height: 10px;
+ }
+
+/* ------------------------------------------- 
+        Item Sheets
+ ---------------------------------------------*/
+
+ .unisystembymmfo .item-sheet-container {
+    padding: 0 5px;
+    background: rgb(41, 50, 59);
+    height: 100%;
+ }
+
+ .unisystembymmfo .item-sheet-header {
+     display: flex;
+     flex-direction: row;
+ }
+
+ .unisystembymmfo .item-header-container {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+     gap: 10px;
+ }
+
+ .unisystembymmfo .item-img {
+     width: 50px;
+     height: 50px;
+     border: none;
+ }
+
+ .unisystembymmfo .item-resource-container {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     padding: 0 0 10px 0;
+     text-align: center;
+ }
+
+ .unisystembymmfo .description-container table th {
+     width: 50%;
+     text-align: left;
+ }
+
+ .unisystembymmfo .description-container table input {
+     text-align: center;
+ }
+
+ .unisystembymmfo .description-container {
+     display: flex;
+     flex-direction: row;
+     height: 100%;
+ }
+
+ .unisystembymmfo .item-description-sidebar {
+     width: 100%;
+     padding: 0 5px;
+     border-left: 1px solid rgb(231, 231, 231);
+ }
+
+ .unisystembymmfo .item-attribute-sidebar {
+     min-width: 40%;
+     height: 100%;
+     padding: 0 5px;
+ }
+
+ .unisystembymmfo .item-attribute-sidebar table select,
+ .unisystembymmfo .item-attribute-sidebar table input {
+     width: 100%;
+     height: 20px;
+ }
+
+ .unisystembymmfo .item-attribute-flex-container {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+ }
+
+ /* ------------------------------------------- 
+        Limited Permission Sheets
+ ---------------------------------------------*/
+
+ .unisystembymmfo .blur {
+     filter: blur(5px);
+ }
+
+  /* ------------------------------------------- 
+        Light Theme Settings
+ ---------------------------------------------*/
+
+ .theme-light .unisystembymmfo.sheet.actor .window-content,
+ .theme-light .unisystembymmfo.sheet.item .window-content {
+    background: url('../images/parchment.jpg');
+    color: black;
+}
+
+.theme-light .unisystembymmfo.sheet.actor .entity-link,
+.theme-light .unisystembymmfo.sheet.actor .content-link,
+.theme-light .unisystembymmfo.sheet.item .entity-link,
+.theme-light .unisystembymmfo.sheet.item .content-link {
+   color: black;
+}
+
+.theme-light .unisystembymmfo.sheet.actor button,
+.theme-light .unisystembymmfo.sheet.item button {
+    color: black;
+    background: none;
+    border: 1px solid black;
+}
+
+.theme-light .unisystembymmfo.sheet.actor input,
+.theme-light .unisystembymmfo.sheet.actor select,
+.theme-light .unisystembymmfo.sheet.item input,
+.theme-light .unisystembymmfo.sheet.item select {
+    color: rgb(0, 0, 0);
+}
+
+.theme-light .unisystembymmfo.sheet.item .window-content .editable {
+    background: none;
+}
+
+body.theme-light .unisystembymmfo option {
+    background: rgb(228, 228, 228);
+}
+
+.theme-light .app.window-app.dialog .window-content {
+    background: url('../images/parchment.jpg');
+}
+
+.theme-light .app.window-app.dialog .dialog-content {
+    color: rgb(0, 0, 0);
+    background: none;
+}
+
+.theme-light .app.window-app.dialog .dialog-buttons button {
+    color: rgb(0, 0, 0);
+    background: none;
+    border: 1px solid black;
+}
+
+body.theme-light .unisystembymmfo .sheet-flex-container {
+    background: none;
+}
+
+body.theme-light .unisystembymmfo .sheet-sidebar {
+    background: none;
+}
+
+body.theme-light .unisystembymmfo .weapon-table,
+body.theme-light .unisystembymmfo .item-table,
+body.theme-light .unisystembymmfo .qualities-container,
+body.theme-light .unisystembymmfo .drawbacks-container,
+body.theme-light .unisystembymmfo .skills-container,
+body.theme-light .unisystembymmfo .powers-container,
+body.theme-light .unisystembymmfo .locations-table,
+body.theme-light .unisystembymmfo .facilities-table,
+body.theme-light .unisystembymmfo .staff-table,
+body.theme-light .unisystembymmfo .weaponery-table,
+body.theme-light .unisystembymmfo .gear-table,
+body.theme-light .unisystembymmfo .vehicles-table,
+body.theme-light .unisystembymmfo .science-table,
+body.theme-light .unisystembymmfo .medical-table,
+body.theme-light .unisystembymmfo .restricted-table {
+    background: rgba(196, 196, 196, 0.603);
+}
+
+body.theme-light .unisystembymmfo tbody tr:nth-child(even) {
+    background: rgba(218, 218, 218, 0.541);
+}
+
+body.theme-light .unisystembymmfo .sheet-nav-container {
+    background: rgba(114, 114, 114, 0.616);
+}
+
+body.theme-light .unisystembymmfo .item-description-sidebar {
+    border-left: 1px solid rgb(0, 0, 0);
+}
+
+.theme-light .app.window-app.dialog .window-content {
+    background: url('../images/parchment.jpg');
+}
+
+.theme-light .app.window-app.dialog .dialog-content {
+    color: black;
+    background: none;
+}
+
+.theme-light .app.window-app.dialog .dialog-buttons button {
+    color: black;
+    background: none;
+    border: 1px solid black;
+}
+
+.theme-light .unisystembymmfo.window-app.dialog .unisystembymmfo-dialog-menu {
+     background: none;
+     color: black;
+ }
+
+ .theme-light .unisystembymmfo.window-app.dialog .unisystembymmfo-dialog-menu-text-box {
+    background: none;
+}
+
+.theme-light .unisystembymmfo.window-app.dialog input,
+.theme-light .unisystembymmfo.window-app.dialog select {
+    color: black;
+}
+
+body.theme-light .unisystembymmfo .item-name:hover {
+    /* font-weight: bold; */
+    color: rgb(0, 0, 0);
+    filter: drop-shadow(0px 0px 6px #af010a);
+}
+
+
+
+
+/*
+var myVar = 4;
+document.body.className = (myVar == 5 ? "aegis" : "ndd");
+*/
+
+/*
+#logo {
+    content: url("/systems/unisystembymmfo/images/unisystem_logo_normal.png");
+    width: 100px;
+    height: 25px;
+    margin-left: 9px;
+    margin-top: 8px;
+  }
+
+  body.unisystembymmfo-aegis #pause > img {
+    content: url("/systems/unisystembymmfo/images/aegis.png");
+    height: 192px;
+    width: 192px;
+    top: -45px;
+    left: calc(50% - 96px);
+  }
+  
+  body.unisystembymmfo-ndd #pause > img {
+    content: url("/systems/unisystembymmfo/images/ndd.png");
+    height: 192px;
+    width: 192px;
+    top: -45px;
+    left: calc(50% - 96px);
+  }
+*/
+
+
+
+  .unisystembymmfo .small-input {
+    width: 10%;
+  }
+
+
+  .unisystembymmfo .influence-logo {
+    width: 20px;
+  }
+
+  .unisystembymmfo .influence-logo img {
+    border: none;
+  }
+
+
+  
+  /* ------------------------------------------- 
+        Journals
+  ------------------------------------------- */
+
+  .journal-header input,
+  .journal-entry-page h1,
+  .journal-entry-page h2,
+  .journal-entry-page h3,
+  .journal-entry-page h4,
+  .journal-entry-page h5,
+  .journal-entry-page h6 {
+    font-family: "Industria";
+  }
+/*
+  .afmbe .journal-header input,
+  .afmbe .journal-entry-page h1,
+  .afmbe .journal-entry-page h2,
+  .afmbe .journal-entry-page h3,
+  .afmbe .journal-entry-page h4,
+  .afmbe .journal-entry-page h5,
+  .afmbe .journal-entry-page h6 {
+    font-family: "JollyLodgerRegular";
+  }
+  .witchcraft .journal-header input,
+  .witchcraft .journal-entry-page h1,
+  .witchcraft .journal-entry-page h2,
+  .witchcraft .journal-entry-page h3,
+  .witchcraft .journal-entry-page h4,
+  .witchcraft .journal-entry-page h5,
+  .witchcraft .journal-entry-page h6 {
+    font-family: "KellsFLF";
+  }
+  .terraprimate .journal-header input,
+  .terraprimate .journal-entry-page h1,
+  .terraprimate .journal-entry-page h2,
+  .terraprimate .journal-entry-page h3,
+  .terraprimate .journal-entry-page h4,
+  .terraprimate .journal-entry-page h5,
+  .terraprimate .journal-entry-page h6 {
+    font-family: "WhosFrankRegular";
+  }
+*/
