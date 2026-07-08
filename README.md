@@ -4,7 +4,7 @@ A fanmade FoundryVTT system to play AFMBE, Terra Primate, WitchCraft, & Conspira
 
 (No Eden Studios IP infringement).
 
-Just select your game (AFMBE, Terra Primate, WitchCraft, or Conspiracy X 2.0) in the Foundry VTT game settings.
+Just select your game (All Flash Must Be Eaten, Terra Primate, WitchCraft, or Conspiracy X 2.0) in the Foundry VTT game settings.
 
 You can purchase the rulebooks from their website https://www.edenstudios.net/ or from DrivethruRPG at
 https://www.drivethrurpg.com/fr/publisher/10/eden-studios
