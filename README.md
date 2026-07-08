@@ -3,7 +3,7 @@
 A fanmade FoundryVTT system to play AFMBE, Terra Primate, WitchCraft, & Conspiracy X 2.0 by Eden Studios.
 
 You can purchase the rulebooks from their website https://www.edenstudios.net/ or from DrivethruRPG at
-https://preview.drivethrurpg.com/fr/publisher/10/eden-studios/category/8366/conspiracy-x-2-0
+https://www.drivethrurpg.com/fr/publisher/10/eden-studios
 
 Done after DogBoneZone's:
 
