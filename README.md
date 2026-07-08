@@ -1,10 +1,10 @@
 # UNISYSTEM BY MMFO
 
-A fanmade FoundryVTT system to play AFMBE, Terra Primate, WitchCraft, & Conspiracy X 2.0 by Eden Studios.
+A fanmade FoundryVTT system to play AFMBE, Armageddon, Terra Primate, WitchCraft, & Conspiracy X 2.0 by Eden Studios.
 
 (No Eden Studios IP infringement).
 
-Just select your game (All Flesh Must Be Eaten, Terra Primate, WitchCraft, or Conspiracy X 2.0) in the Foundry VTT game settings.
+Just select your game (All Flesh Must Be Eaten, Armageddon, Terra Primate, WitchCraft, or Conspiracy X 2.0) in the Foundry VTT game settings.
 
 You can purchase the rulebooks from their website https://www.edenstudios.net/ or from DrivethruRPG at
 https://www.drivethrurpg.com/fr/publisher/10/eden-studios
