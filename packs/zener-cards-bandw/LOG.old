@@ -1,3 +1,7 @@
-2026/07/08-14:51:34.995 2280 Recovering log #164
-2026/07/08-14:51:35.008 2280 Delete type=0 #164
-2026/07/08-14:51:35.009 2280 Delete type=3 #163
+2026/07/08-18:55:02.144 948 Recovering log #182
+2026/07/08-18:55:02.149 948 Delete type=0 #182
+2026/07/08-18:55:02.149 948 Delete type=3 #181
+2026/07/08-19:44:25.945 2ddc Level-0 table #186: started
+2026/07/08-19:44:25.945 2ddc Level-0 table #186: 0 bytes OK
+2026/07/08-19:44:25.948 2ddc Delete type=0 #184
+2026/07/08-19:44:25.954 2ddc Manual compaction at level-0 from '!cards!7VbMZUTIqUs07VbY' @ 72057594037927935 : 1 .. '!cards.cards!7VbMZUTIqUs07VbY.zXJd7RdBenphaNuf' @ 0 : 0; will stop at (end)

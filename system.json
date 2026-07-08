@@ -64,10 +64,10 @@
         "flags": {}
       },
       {
-        "name": "unisystembymmfo-macros",
+        "name": "conx-macros",
         "label": "Zener Cards Macros",
         "system": "unisystembymmfo",
-        "path": "packs/unisystembymmfo-macros",
+        "path": "packs/conx-macros",
         "type": "Macro",
         "ownership": {
           "PLAYER": "OBSERVER",
