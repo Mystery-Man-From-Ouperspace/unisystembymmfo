@@ -39,6 +39,7 @@ export class unisystemActor extends Actor {
       let afmbechaTypeLabel = data.afmbecharacterTypes[data.afmbecharacterType]
       let witchcraftchaTypeLabel = data.witchcraftcharacterTypes[data.witchcraftcharacterType]
       let chaTypeLabel = data.characterTypes[data.characterType]
+      let armageddonchaTypeLabel = data.armageddoncharacterTypes[data.armageddoncharacterType]
       if(terraprimatechaTypeLabel != undefined) {
         data.terraprimatecharacterTypeValues[terraprimatechaTypeLabel].attributePoints.value = this._calculateAttributePoints(data)
         data.terraprimatecharacterTypeValues[terraprimatechaTypeLabel].qualityPoints.value = this._calculateQualityPoints(data)
@@ -66,6 +67,13 @@ export class unisystemActor extends Actor {
         data.characterTypeValues[chaTypeLabel].drawbackPoints.value = this._calculateDrawbackPoints(data)
         data.characterTypeValues[chaTypeLabel].skillPoints.value = this._calculateSkillPoints(data)
         data.characterTypeValues[chaTypeLabel].metaphysicsPoints.value = this._calculateMetaphysicsPoints(data)
+      }
+      if(armageddonchaTypeLabel != undefined) {
+        data.armageddoncharacterTypeValues[armageddonchaTypeLabel].attributePoints.value = this._calculateAttributePoints(data)
+        data.armageddoncharacterTypeValues[armageddonchaTypeLabel].qualityPoints.value = this._calculateQualityPoints(data)
+        data.armageddoncharacterTypeValues[armageddonchaTypeLabel].drawbackPoints.value = this._calculateDrawbackPoints(data)
+        data.armageddoncharacterTypeValues[armageddonchaTypeLabel].skillPoints.value = this._calculateSkillPoints(data)
+        data.armageddoncharacterTypeValues[armageddonchaTypeLabel].metaphysicsPoints.value = this._calculateMetaphysicsPoints(data)
       }
 
       // Set Encumbrance Values

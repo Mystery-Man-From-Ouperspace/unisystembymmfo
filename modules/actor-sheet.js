@@ -202,6 +202,10 @@ export class unisystemActorSheet extends ActorSheet {
               characterTypePath = actorData.characterTypes[actorData.characterType]
               mycharacterTypeValues = actorData.characterTypeValues
                 break;
+            case "armageddon":
+              characterTypePath = actorData.armageddoncharacterTypes[actorData.armageddoncharacterType]
+              mycharacterTypeValues = actorData.armageddoncharacterTypeValues
+                break;
             default:
                 console.log("Bizarre !")
                 characterTypePath = undefined

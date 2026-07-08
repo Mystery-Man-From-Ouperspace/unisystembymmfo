@@ -100,6 +100,7 @@ Hooks.once("init", async function() {
         type: String,
         choices: {
           afmbe: "UNISYSTEM.Settings.gamesystem.afmbe",
+          armageddon: "UNISYSTEM.Settings.gamesystem.armageddon",
           conx: "UNISYSTEM.Settings.gamesystem.conx",
           terraprimate: "UNISYSTEM.Settings.gamesystem.terraprimate",
           witchcraft: "UNISYSTEM.Settings.gamesystem.witchcraft",

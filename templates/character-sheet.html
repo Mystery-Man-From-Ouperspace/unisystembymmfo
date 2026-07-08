@@ -53,6 +53,17 @@
                                                 {{/each}}
                                             {{/select}}
                                         </select>
+                                        {{else}}
+                                            {{#if (eq gamesystem "armageddon")}}
+                                            <select id="characterTypeSelect" name="system.armageddoncharacterType" data-type="String">
+                                                {{#select actor.system.armageddoncharacterType}}
+                                                    {{#each actor.system.armageddoncharacterTypes as |characterTypes key|}}
+                                                    {{ log characterTypes key }}
+                                                    <option value="{{key}}">{{ localize (concat 'UNISYSTEM.' characterTypes) }}</option>
+                                                    {{/each}}
+                                                {{/select}}
+                                            </select>
+                                            {{/if}}
                                         {{/if}}
                                     {{/if}}
                                 {{/if}}

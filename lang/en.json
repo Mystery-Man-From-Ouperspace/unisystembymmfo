@@ -55,6 +55,18 @@
   "UNISYSTEM.Survivor": "Survivor",
   "UNISYSTEM.Inspired": "Inspired",
 
+  "UNISYSTEM.PotentialHeroPreHeroic": "PotentialHero ● Pre-Heroic",
+  "UNISYSTEM.BeginningGiftedPreHeroic": "BeginningGifted ● Pre-Heroic",
+  "UNISYSTEM.GiftedHeroic": "Gifted ● Heroic",
+  "UNISYSTEM.LesserGiftedHeroic": "LesserGifted ● Heroic",
+
+  "UNISYSTEM.LesserSupernaturalHeroic": "Lesser Supernatural ● Heroic",
+  "UNISYSTEM.SuperNaturalLegendary": "Super Natural ● Legendary",
+  "UNISYSTEM.GreaterGiftedLegendary": "Greater Gifted ● Legendary",
+  "UNISYSTEM.GreaterSupernaturalMythical": "Greater Supernatural ● Mythical",
+  "UNISYSTEM.GiftedMasterMythical": "Gifted Master ● Mythical",
+
+
   "UNISYSTEM.MundanePreHeroic": "Mundane ● Pre-Heroic",
   "UNISYSTEM.MundaneHeroic": "Mundane ● Heroic",
   "UNISYSTEM.MundaneVeteran": "Mundane ● Veteran",
@@ -281,11 +293,13 @@
   "UNISYSTEM.Settings.gamesystem.hint": "Game System to be used.",
   "UNISYSTEM.Settings.gamesystem.terraprimate": "Terra Primate",
   "UNISYSTEM.Settings.gamesystem.afmbe": "All Flesh Must Be Eaten",
+  "UNISYSTEM.Settings.gamesystem.armageddon": "Armageddon",
   "UNISYSTEM.Settings.gamesystem.witchcraft": "WitchCraft",
   "UNISYSTEM.Settings.gamesystem.conx": "Conspiracy X 2.0",
 
   "UNISYSTEM.terraprimate": "Terra Primate",
   "UNISYSTEM.afmbe": "AFMBE",
+  "UNISYSTEM.armageddon": "Armageddon",
   "UNISYSTEM.witchcraft": "WitchCraft",
   "UNISYSTEM.conx": "Conspiracy X 2.0",
 

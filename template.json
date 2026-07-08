@@ -7,6 +7,7 @@
                 "afmbecharacterType": 0,
                 "witchcraftcharacterType": 0,
                 "characterType": 0,
+                "armageddoncharacterType": 0,
                 "terraprimatecharacterTypes": [
                     "PreHeroic",
                     "Heroic",
@@ -472,6 +473,240 @@
                         "metaphysicsPoints": {
                             "value": 0,
                             "max": 0
+                        }
+                    }
+                },
+                "armageddoncharacterTypes": [
+                    "PotentialHeroPreHeroic",
+                    "BeginningGiftedPreHeroic",
+                    "GiftedHeroic",
+                    "LesserGiftedHeroic",
+                    "MundaneHeroic",
+                    "LesserSupernaturalHeroic",
+                    "SuperNaturalLegendary",
+                    "GreaterGiftedLegendary",
+                    "GreaterSupernaturalMythical",
+                    "GiftedMasterMythical"
+                ],
+                "armageddoncharacterTypeValues": {
+                    "PotentialHeroPreHeroic": {
+                        "attributePoints": {
+                            "value": 0,
+                            "max": 15
+                        },
+                        "qualityPoints": {
+                            "value": 0,
+                            "max": 5
+                        },
+                        "drawbackPoints": {
+                            "value": 0,
+                            "max": 10
+                        },
+                        "skillPoints": {
+                            "value": 0,
+                            "max": 30
+                        },
+                        "metaphysicsPoints": {
+                            "value": 0,
+                            "max": 0
+                        }
+                    },
+                    "BeginningGiftedPreHeroic": {
+                        "attributePoints": {
+                            "value": 0,
+                            "max": 15
+                        },
+                        "qualityPoints": {
+                            "value": 0,
+                            "max": 5
+                        },
+                        "drawbackPoints": {
+                            "value": 0,
+                            "max": 5
+                        },
+                        "skillPoints": {
+                            "value": 0,
+                            "max": 25
+                        },
+                        "metaphysicsPoints": {
+                            "value": 0,
+                            "max": 5
+                        }
+                    },
+                    "GiftedHeroic": {
+                        "attributePoints": {
+                            "value": 0,
+                            "max": 15
+                        },
+                        "qualityPoints": {
+                            "value": 0,
+                            "max": 10
+                        },
+                        "drawbackPoints": {
+                            "value": 0,
+                            "max": 10
+                        },
+                        "skillPoints": {
+                            "value": 0,
+                            "max": 25
+                        },
+                        "metaphysicsPoints": {
+                            "value": 0,
+                            "max": 30
+                        }
+                    },
+                    "LesserGiftedHeroic": {
+                        "attributePoints": {
+                            "value": 0,
+                            "max": 20
+                        },
+                        "qualityPoints": {
+                            "value": 0,
+                            "max": 15
+                        },
+                        "drawbackPoints": {
+                            "value": 0,
+                            "max": 10
+                        },
+                        "skillPoints": {
+                            "value": 0,
+                            "max": 30
+                        },
+                        "metaphysicsPoints": {
+                            "value": 0,
+                            "max": 15
+                        }
+                    },
+                    "MundaneHeroic": {
+                        "attributePoints": {
+                            "value": 0,
+                            "max": 25
+                        },
+                        "qualityPoints": {
+                            "value": 0,
+                            "max": 20
+                        },
+                        "drawbackPoints": {
+                            "value": 0,
+                            "max": 10
+                        },
+                        "skillPoints": {
+                            "value": 0,
+                            "max": 25
+                        },
+                        "metaphysicsPoints": {
+                            "value": 0,
+                            "max": 0
+                        }
+                    },
+                    "LesserSupernaturalHeroic": {
+                        "attributePoints": {
+                            "value": 0,
+                            "max": 15
+                        },
+                        "qualityPoints": {
+                            "value": 0,
+                            "max": 15
+                        },
+                        "drawbackPoints": {
+                            "value": 0,
+                            "max": 10
+                        },
+                        "skillPoints": {
+                            "value": 0,
+                            "max": 25
+                        },
+                        "metaphysicsPoints": {
+                            "value": 0,
+                            "max": 25
+                        }
+                    },
+                    "SuperNaturalLegendary": {
+                        "attributePoints": {
+                            "value": 0,
+                            "max": 30
+                        },
+                        "qualityPoints": {
+                            "value": 0,
+                            "max": 20
+                        },
+                        "drawbackPoints": {
+                            "value": 0,
+                            "max": 15
+                        },
+                        "skillPoints": {
+                            "value": 0,
+                            "max": 40
+                        },
+                        "metaphysicsPoints": {
+                            "value": 0,
+                            "max": 30
+                        }
+                    },
+                    "GreaterGiftedLegendary": {
+                        "attributePoints": {
+                            "value": 0,
+                            "max": 20
+                        },
+                        "qualityPoints": {
+                            "value": 0,
+                            "max": 15
+                        },
+                        "drawbackPoints": {
+                            "value": 0,
+                            "max": 15
+                        },
+                        "skillPoints": {
+                            "value": 0,
+                            "max": 35
+                        },
+                        "metaphysicsPoints": {
+                            "value": 0,
+                            "max": 50
+                        }
+                    },
+                    "GreaterSupernaturalMythical": {
+                        "attributePoints": {
+                            "value": 0,
+                            "max": 30
+                        },
+                        "qualityPoints": {
+                            "value": 0,
+                            "max": 20
+                        },
+                        "drawbackPoints": {
+                            "value": 0,
+                            "max": 15
+                        },
+                        "skillPoints": {
+                            "value": 0,
+                            "max": 60
+                        },
+                        "metaphysicsPoints": {
+                            "value": 0,
+                            "max": 90
+                        }
+                    },
+                    "GiftedMasterMythical": {
+                        "attributePoints": {
+                            "value": 0,
+                            "max": 25
+                        },
+                        "qualityPoints": {
+                            "value": 0,
+                            "max": 20
+                        },
+                        "drawbackPoints": {
+                            "value": 0,
+                            "max": 15
+                        },
+                        "skillPoints": {
+                            "value": 0,
+                            "max": 55
+                        },
+                        "metaphysicsPoints": {
+                            "value": 0,
+                            "max": 100
                         }
                     }
                 },
