@@ -4,9 +4,11 @@ export class unisystemActorSheet extends ActorSheet {
     /** @override */
       static get defaultOptions() {
         // return mergeObject(super.defaultOptions, {
+        let gamesettings = game.settings.get("unisystembymmfo", "gamesystem");
+        let gamesystemclass = gamesettings === "afmbe" ? "afmbe" : (gamesettings === "witchcraft" ? "witchcraft" : (gamesettings === "terraprimate" ? "terraprimate" : (gamesettings === "armageddon" ? "armageddon" : (gamesettings === "conx" ? "conx" : ""))));
         return foundry.utils.mergeObject(super.defaultOptions, {
           // classes: ["unisystembymmfo", "sheet", "actor", `${game.settings.get("unisystembymmfo", "light-mode") ? "light-mode" : ""}`],
-          classes: ["unisystembymmfo", "sheet", "actor", `${game.settings.get("unisystembymmfo", "gamesystem") === "afmbe" ? "afmbe" : (game.settings.get("unisystembymmfo", "gamesystem") === "witchcraft" ? "witchcraft" : (game.settings.get("unisystembymmfo", "gamesystem") === "terraprimate" ? "terraprimate" : ""))}`],
+          classes: ["unisystembymmfo", "sheet", "actor", gamesystemclass],
             width: 800,
             height: 820,
             tabs: [{navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "core"}],
@@ -263,7 +265,9 @@ export class unisystemActorSheet extends ActorSheet {
         // Create Classes for Dialog Box
         // let mode = game.settings.get("unisystembymmfo", "light-mode") ? "light-mode" : ""
         // let dialogOptions = {classes: ["dialog", "unisystembymmfo", mode]}
-        let dialogOptions = {classes: ["dialog", "unisystembymmfo", `${game.settings.get("unisystembymmfo", "gamesystem") === "afmbe" ? "afmbe" : (game.settings.get("unisystembymmfo", "gamesystem") === "witchcraft" ? "witchcraft" : (game.settings.get("unisystembymmfo", "gamesystem") === "terraprimate" ? "terraprimate" : ""))}`]}
+        let gamesettings = game.settings.get("unisystembymmfo", "gamesystem");
+        let gamesystemclass = gamesettings === "afmbe" ? "afmbe" : (gamesettings === "witchcraft" ? "witchcraft" : (gamesettings === "terraprimate" ? "terraprimate" : (gamesettings === "armageddon" ? "armageddon" : (gamesettings === "conx" ? "conx" : ""))));
+        let dialogOptions = {classes: ["dialog", "unisystembymmfo", gamesystemclass]}
 
         // Create Dialog Prompt
         let d = new Dialog({
@@ -436,7 +440,9 @@ export class unisystemActorSheet extends ActorSheet {
         // Create Classes for Dialog Box
         // let mode = game.settings.get("unisystembymmfo", "light-mode") ? "light-mode" : ""
         // let dialogOptions = {classes: ["dialog", "unisystembymmfo", mode]}
-        let dialogOptions = {classes: ["dialog", "unisystembymmfo", `${game.settings.get("unisystembymmfo", "gamesystem") === "afmbe" ? "afmbe" : (game.settings.get("unisystembymmfo", "gamesystem") === "witchcraft" ? "witchcraft" : (game.settings.get("unisystembymmfo", "gamesystem") === "terraprimate" ? "terraprimate" : ""))}`]}
+        let gamesettings = game.settings.get("unisystembymmfo", "gamesystem");
+        let gamesystemclass = gamesettings === "afmbe" ? "afmbe" : (gamesettings === "witchcraft" ? "witchcraft" : (gamesettings === "terraprimate" ? "terraprimate" : (gamesettings === "armageddon" ? "armageddon" : (gamesettings === "conx" ? "conx" : ""))));
+        let dialogOptions = {classes: ["dialog", "unisystembymmfo", gamesystemclass]}
 
         // Create Dialog Box
         let d = new Dialog({

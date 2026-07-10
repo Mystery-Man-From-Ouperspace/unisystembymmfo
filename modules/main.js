@@ -118,8 +118,14 @@ Hooks.once("init", async function() {
           onChange: delayedReload
       });
 
+      const gamesystem = game.settings.get("unisystembymmfo", "gamesystem");
       const ndd = game.settings.get("unisystembymmfo", "aegis-ndd");
-      document.body.classList.add(ndd ? "unisystembymmfo-ndd" : "unisystembymmfo-aegis");  
+      if (gamesystem === "conx") {
+        document.body.classList.add(ndd ? "unisystembymmfo-ndd" : "unisystembymmfo-aegis");
+      }
+      else {
+        document.body.classList.add(gamesystem);  
+      } 
 
 })
 
