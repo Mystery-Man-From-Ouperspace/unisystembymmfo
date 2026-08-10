@@ -402,7 +402,7 @@ export class unisystemCreatureSheet extends ActorSheet {
                                     break
 
                                 case false: 
-                                    return ui.notifications.info(`You do not have enough ammo loaded to fire ${shotNumber} rounds!`)
+                                    return ui.notifications.info(game.i18n.localize("UNISYSTEM.You do not have enough ammo loaded to fire")+` ${shotNumber} `+game.i18n.localize("UNISYSTEM.rounds!"))
                             }
                         }
 
