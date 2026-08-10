@@ -3,7 +3,6 @@ export class unisystemActorSheet extends ActorSheet {
     
     /** @override */
       static get defaultOptions() {
-        // return mergeObject(super.defaultOptions, {
         let gamesettings = game.settings.get("unisystembymmfo", "gamesystem");
         let gamesystemclass = gamesettings === "afmbe" ? "afmbe" : (gamesettings === "witchcraft" ? "witchcraft" : (gamesettings === "terraprimate" ? "terraprimate" : (gamesettings === "armageddon" ? "armageddon" : (gamesettings === "conx" ? "conx" : ""))));
         return foundry.utils.mergeObject(super.defaultOptions, {

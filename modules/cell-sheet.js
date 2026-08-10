@@ -3,9 +3,11 @@ export class unisystemCellSheet extends ActorSheet {
     /** @override */
       static get defaultOptions() {
         // return mergeObject(super.defaultOptions, {
+        let gamesettings = game.settings.get("unisystembymmfo", "gamesystem");
+        let gamesystemclass = gamesettings === "afmbe" ? "afmbe" : (gamesettings === "witchcraft" ? "witchcraft" : (gamesettings === "terraprimate" ? "terraprimate" : (gamesettings === "armageddon" ? "armageddon" : (gamesettings === "conx" ? "conx" : ""))));
         return foundry.utils.mergeObject(super.defaultOptions, {
           // classes: ["unisystembymmfo", "sheet", "actor", `${game.settings.get("unisystembymmfo", "light-mode") ? "light-mode" : ""}`],
-          classes: ["unisystembymmfo", "sheet", "actor", `${game.settings.get("unisystembymmfo", "gamesystem") === "afmbe" ? "afmbe" : (game.settings.get("unisystembymmfo", "gamesystem") === "witchcraft" ? "witchcraft" : (game.settings.get("unisystembymmfo", "gamesystem") === "terraprimate" ? "terraprimate" : ""))}`],
+          classes: ["unisystembymmfo", "sheet", "actor", gamesystemclass],
           template: "systems/unisystembymmfo/templates/cell-sheet.html",
             width: 800,
             height: 780,
