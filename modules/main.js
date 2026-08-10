@@ -127,6 +127,16 @@ Hooks.once("init", async function() {
         document.body.classList.add(gamesystem);  
       } 
 
+      game.settings.register("unisystembymmfo", "polaroidold", {
+        name: game.i18n.localize("UNISYSTEM.Polaroid Old"),
+        hint: game.i18n.localize("UNISYSTEM.Checking this option enables Old Polaroid"),
+        scope: "world",
+        config: true,
+        default: false,
+        type: Boolean,
+        onChange: delayedReload
+      });
+
 })
 
 

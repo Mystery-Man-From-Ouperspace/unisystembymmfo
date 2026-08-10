@@ -28,6 +28,8 @@ export class unisystemActorSheet extends ActorSheet {
 
     data.gamesystem = game.settings.get("unisystembymmfo", "gamesystem");
 
+    data.polaroidold = game.settings.get("unisystembymmfo", "polaroidold");
+
     const actorData = data.system;
     let options = 0;
     let user = this.user;
