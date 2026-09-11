@@ -173,6 +173,7 @@
 
   "UNISYSTEM.Attribute Roll": "Attribute Roll",
   "UNISYSTEM.Weapon Roll": "Weapon Roll",
+  "UNISYSTEM.Armor Roll": "Armor Roll",
 
   "UNISYSTEM.If a ranged weapon": "If a ranged weapon",
   "UNISYSTEM.select how many shots": ", select how many shots to take and select weapon firing mode. The number of shots fired will be reduced from the weapon's current load capacity. Make sure you have enough ammo in the chamber!",
@@ -229,7 +230,7 @@
   "UNISYSTEM.Surveillance": "Surveillance",
   "UNISYSTEM.IntrusionEquipment": "Intrusion Equip.",
   "UNISYSTEM.Electronics": "Electronics",
-  "UNISYSTEM.software": "Software",
+  "UNISYSTEM.Software": "Software",
   "UNISYSTEM.PersonnelEquipment": "Personnel Equip.",
 
   "UNISYSTEM.Vehicles & Accessories": "Vehicles & Accessories",
@@ -305,7 +306,40 @@
   "UNISYSTEM.witchcraft": "WitchCraft",
   "UNISYSTEM.conx": "Conspiracy X 2.0",
 
- 
+
+
+  "CHAT": {
+    "MODES": {
+      "blind": "Blind to Chroniclers",
+      "gm": "Private to Chroniclers"
+    }
+  },
+  "KEYBINDINGS": {
+    "Restricted": "Chronicler Only"
+  },
+  "VISIBILITY": {
+    "GAMEMASTER": {
+      "label": "Always for Chronicler"
+    }
+  },
+  "BEHAVIOR": {
+    "TYPES": {
+      "displayScrollingText": {
+        "VISIBILITY_MODES": {
+          "GAMEMASTER": {
+            "label": "Chronicler"
+          }
+        }
+      }
+    }
+  },
+  "USER": {
+    "RoleAssistant": "Assistant Chronicler",
+    "RoleGamemaster": "Chronicler",
+    "GM": "GM"
+  },
+
+
 
   "TYPES": {
     "Actor": {

@@ -173,6 +173,7 @@
   
   "UNISYSTEM.Attribute Roll": "Jet d′Attribut",
   "UNISYSTEM.Weapon Roll": "Jet d′Arme",
+  "UNISYSTEM.Armor Roll": "Jet d′Armure",
 
   "UNISYSTEM.If a ranged weapon": "S'il s'agit d'une arme à distance",
   "UNISYSTEM.select how many shots": ", saisissez le nombre de tirs à effectuer puis sélectionnez le mode de tir de l'arme. Le nombre de tirs effectués sera déduit du contenu courant du chargeur de l'arme. Assurez-vous de disposer d'assez de munitions dans la chambre !",
@@ -289,31 +290,66 @@
   "UNISYSTEM.afmbe": "AFMBE",
   "UNISYSTEM.witchcraft": "WitchCraft",
   "UNISYSTEM.conx": "Conspiracy X 2.0",
+  
 
 
-"TYPES": {
-  "Actor": {
-    "character": "Personnage",
-    "creature": "Créature",
-    "cell": "Cellule",
-    "vehicle": "Véhicule"
+  "CHAT": {
+    "MODES": {
+      "blind": "Aveugle pour les Chroniqueurs",
+      "gm": "Privé pour les Chroniqueurs"
+    }
   },
-  "Item": {
-    "quality": "Qualité",
-    "drawback": "Désavantage",
-    "skill": "Compétence",
-    "power": "Pouvoir",
-    "aspect": "Aspect",
-    "weapon": "Arme",
-    "item": "Objet",
-    "locations": "Local",
-    "facilities": "Installation",
-    "staff": "Personnel",
-    "weaponery": "Armement",
-    "gear": "Matériel",
-    "vehicles": "Véhicule",
-    "science": "Ressource scientifique",
-    "medical": "Ressource médicale",
-    "restricted": "Ressource à accès restreint"  }
-}
+  "KEYBINDINGS": {
+    "Restricted": "Chroniqueurs seulement"
+  },
+  "VISIBILITY": {
+    "GAMEMASTER": {
+      "label": "Toujours pour le Chroniqueur"
+    }
+  },
+  "BEHAVIOR": {
+    "TYPES": {
+      "displayScrollingText": {
+        "VISIBILITY_MODES": {
+          "GAMEMASTER": {
+            "label": "Chroniqueur"
+          }
+        }
+      }
+    }
+  },
+  "USER": {
+    "RoleAssistant": "Assistant Chroniqueur",
+    "RoleGamemaster": "Chroniqueur",
+    "GM": "GM"
+  },
+
+
+
+  "TYPES": {
+    "Actor": {
+      "character": "Personnage",
+      "creature": "Créature",
+      "cell": "Cellule",
+      "vehicle": "Véhicule"
+    },
+    "Item": {
+      "quality": "Qualité",
+      "drawback": "Désavantage",
+      "skill": "Compétence",
+      "power": "Pouvoir",
+      "aspect": "Aspect",
+      "weapon": "Arme",
+      "item": "Objet",
+      "locations": "Local",
+      "facilities": "Installation",
+      "staff": "Personnel",
+      "weaponery": "Armement",
+      "gear": "Matériel",
+      "vehicles": "Véhicule",
+      "science": "Ressource scientifique",
+      "medical": "Ressource médicale",
+      "restricted": "Ressource à accès restreint"
+    }
+  }
 }
