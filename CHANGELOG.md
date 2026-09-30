@@ -1,3 +1,7 @@
+0.0.7
+- Added icons to actors' item sections
+- Added damage multiplier bonus to weapon items
+
 0.0.6
 - Added Old Polaroid option
 
