@@ -6,9 +6,9 @@
             <div class="header-container">
                 <div class="polaroid-container">
                     {{#if polaroidold}}
-                    <img class="polaroid" src="systems/unisystemcinematicbymmfo/images/polaroid_old.png">
+                    <img class="polaroid" src="systems/unisystembymmfo/images/polaroid_old.png">
                     {{else}}
-                    <img class="polaroid" src="systems/unisystemcinematicbymmfo/images/polaroid.png">
+                    <img class="polaroid" src="systems/unisystembymmfo/images/polaroid.png">
                     {{/if}}
                     <img class="profile-img" data-edit="img" src="{{actor.img}}">
                     <div class="sheet-nav-container">
@@ -27,7 +27,7 @@
                 <div class="header-info-container">
                     <div class="info-container">
                         <h1>
-                            <input class="charname" type="text" name="name" value="{{actor.name}}" placeholder="{{ localize 'Name' }}">
+                            <input class="charname" type="text" name="name" value="{{actor.name}}" placeholder="{{ localize 'UNISYSTEM.Name' }}">
                         </h1>
                         <div class="attribute-container">
                             <h2 id="attributes-header">
@@ -130,6 +130,7 @@
                     <div class="skills-container">
                         <h2 id="skill-header" class="header-with-button">
                             <button type="button" class="create-item" data-create="skill">+</button> 
+                            <img class="myIcon" src="systems/unisystembymmfo/images/conx_icons/_skill.png">
                             <span>{{ localize "UNISYSTEM.Skills" }}</span>
                         </h2>
                         <table class="item-table">
@@ -154,6 +155,7 @@
                     <div class="powers-container">
                         <h2 id="aspect-header" class="header-with-button">
                             <button type="button" class="create-item" data-create="aspect">+</button> 
+                            <img class="myIcon" src="systems/unisystembymmfo/images/conx_icons/_aspect.png">
                             <span>{{ localize "UNISYSTEM.Aspects" }}</span>
                         </h2>
                         <table class="item-table">
@@ -198,6 +200,7 @@
                 <div class="weapon-table">
                     <h2 class="header-with-button">
                         <button type="button" class="create-item" data-create="weapon">+</button> 
+                        <img class="myIcon" src="systems/unisystembymmfo/images/conx_icons/hand_weapons/hand_weapon.png">
                         <span>{{ localize "UNISYSTEM.Weapons" }}</span>
                     </h2>
                     <table>
@@ -238,6 +241,7 @@
                 <div class="item-table">
                     <h2 class="header-with-button">
                         <button type="button" class="create-item" data-create="item">+</button> 
+                        <img class="myIcon" src="icons/svg/item-bag.svg">
                         <span>{{ localize "UNISYSTEM.Equipped Items" }}</span>
                     </h2>
                     <table>
@@ -274,6 +278,7 @@
                 <div class="item-table">
                     <h2 class="header-with-button">
                         <button type="button" class="create-item" data-create="item">+</button> 
+                        <img class="myIcon" src="icons/svg/item-bag.svg">
                         <span>{{ localize "UNISYSTEM.Items" }}</span>
                     </h2>
                     <table>

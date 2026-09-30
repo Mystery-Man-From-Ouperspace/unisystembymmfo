@@ -132,7 +132,7 @@ export class unisystemCreatureSheet extends ActorSheet {
         });
     }
 
-    /**
+   /**
    * Handle clickable rolls.
    * @param event   The originating click event
    * @private

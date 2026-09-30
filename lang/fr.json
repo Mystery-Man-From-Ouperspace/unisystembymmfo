@@ -111,7 +111,7 @@
   "UNISYSTEM.locations": "local",
   "UNISYSTEM.facilities": "installation",
   "UNISYSTEM.staff": "personnel",
-  "UNISYSTEM.weaponery": "armement",
+  "UNISYSTEM.weaponery": "armurerie",
   "UNISYSTEM.gear": "matériel",
   "UNISYSTEM.vehicles": "véhicule",
   "UNISYSTEM.science": "ressource scientifique",
@@ -214,7 +214,7 @@
   "UNISYSTEM.Facilities": "Installations",
   "UNISYSTEM.Staff": "Personnel",
 
-  "UNISYSTEM.Weaponery": "Armement",
+  "UNISYSTEM.Weaponery": "Armurerie",
   "UNISYSTEM.Gear": "Matériel",
   "UNISYSTEM.Vehicles": "Véhicule",
 
@@ -344,7 +344,7 @@
       "locations": "Local",
       "facilities": "Installation",
       "staff": "Personnel",
-      "weaponery": "Armement",
+      "weaponery": "Armurerie",
       "gear": "Matériel",
       "vehicles": "Véhicule",
       "science": "Ressource scientifique",

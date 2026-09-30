@@ -1,0 +1,63 @@
+<section 
+    {{log 'creature-tab-core' this}} 
+    class='tab main {{tab.cssClass}}'
+    data-group='primary'
+    data-tab='creature-tab-core'
+>
+
+    {{!-- Core Tab --}}
+    <div class="bio-container">
+        <h2>{{ localize "UNISYSTEM.Description" }}</h2>
+        {{editor descriptionHTML target="system.biography" button=true editable=editable engine="prosemirror"}}
+    </div>
+    <div class="skill-item-container">
+        <div class="skills-container">
+            <h2 id="skill-header" class="header-with-button">
+                <button type="button" class="create-item" data-create="skill">+</button> 
+                <span>{{ localize "UNISYSTEM.Skills" }}</span>
+            </h2>
+            <table class="item-table">
+                <thead>
+                    <tr>
+                        <th class="table-left-align">{{ localize "UNISYSTEM.Name" }}</th>
+                        <th>{{ localize "UNISYSTEM.Level" }}</th>
+                        <th class="trash"><a class="item-control item-delete" title="Delete Item"><i class="fas fa-trash"></i></a></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each actor.skill as |item id|}}
+                        <tr class="item" data-item-id="{{item._id}}">
+                            <td class="item-name">{{item.name}}</td>
+                            <td class="table-center-align">{{item.system.level}}</td>
+                            <td class="trash table-center-align"><a class="item-control item-delete" title="Delete Item"><i class="fas fa-trash"></i></a></td>
+                        </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+        </div>
+        <div class="powers-container">
+            <h2 id="aspect-header" class="header-with-button">
+                <button type="button" class="create-item" data-create="aspect">+</button> 
+                <span>{{ localize "UNISYSTEM.Aspects" }}</span>
+            </h2>
+            <table class="item-table">
+                <thead>
+                    <tr>
+                        <th class="table-left-align">{{ localize "UNISYSTEM.Name" }}</th>
+                        <th>{{ localize "UNISYSTEM.Power" }}</th>
+                        <th class="trash"><a class="item-control item-delete" title="Delete Item"><i class="fas fa-trash"></i></a></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each actor.aspect as |item id|}}
+                        <tr class="item" data-item-id="{{item._id}}">
+                            <td class="item-name">{{item.name}}</td>
+                            <td class="table-center-align">{{item.system.power}}</td>
+                            <td class="trash table-center-align"><a class="item-control item-delete" title="Delete Item"><i class="fas fa-trash"></i></a></td>
+                        </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>

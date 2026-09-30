@@ -35,6 +35,13 @@
         Global Styles
  ---------------------------------------------*/
 
+ .unisystembymmfo .myIcon{
+    width: 25px;
+    border-width: 0.5px;
+    border-color: black;
+    /* background: rgb(85, 85, 85); */
+ }
+
  .unisystembymmfo #logo {
     height: 0px;
  }

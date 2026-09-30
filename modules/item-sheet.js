@@ -1,5 +1,5 @@
 export class unisystemItemSheet extends ItemSheet {
-
+  
     /** @override */
     static get defaultOptions() {
         // return mergeObject(super.defaultOptions, {
@@ -35,8 +35,6 @@ export class unisystemItemSheet extends ItemSheet {
         return data;
         }
 
-/* -------------------------------------------- */
-
     /** @override */
     setPosition(options={}) {
         const position = super.setPosition(options);
@@ -47,11 +45,9 @@ export class unisystemItemSheet extends ItemSheet {
     }
 
     /**
-   * Handle clickables
-   * @param {Event} event   The originating click event
-   * @private
-   */
-
-
+    * Handle clickables
+    * @param {Event} event   The originating click event
+    * @private
+    */
 
 }

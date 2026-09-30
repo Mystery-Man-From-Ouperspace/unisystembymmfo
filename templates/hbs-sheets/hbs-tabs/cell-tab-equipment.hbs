@@ -1,0 +1,156 @@
+<section 
+    {{log 'cell-tab-equipment' this}} 
+    class='tab main {{tab.cssClass}}'
+    data-group='primary'
+    data-tab='cell-tab-equipment'
+>
+
+    {{!-- Equipment Tab --}}
+    <div class="weaponery-table">
+        <h2 class="header-with-button">
+            <button type="button" class="create-item" data-create="weaponery">+</button> 
+            <span>{{ localize "UNISYSTEM.Weaponery" }}</span>
+        </h2>
+        <table>
+            <thead>
+                <tr>
+                    <th class="table-left-align">{{ localize "UNISYSTEM.Name" }}</th>
+                    <th>{{ localize "UNISYSTEM.Qty" }}</th>
+                    <th>{{ localize "UNISYSTEM.Location" }}</th>
+                    <th class="trash"><span title="{{ localize 'UNISYSTEM.Delete Item' }}"><i class="fas fa-trash"></i></span></th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each actor.weaponery as |item id|}}
+                    <tr class="item" data-item-id="{{item._id}}">
+                        <td>
+                            <div class="item-name-flex-container">
+                                <div class="item-name">{{item.name}}</div>
+                            </div>
+                        </td>
+                        <td class="table-center-align">{{item.system.qty}}</td>
+                        <td class="table-center-align">
+                            {{#with item.system.location as |location|}}
+                                {{#if (eq location '0')}}
+                                    <span>*</span>
+                                {{/if}}
+                                {{#if (eq location '1')}}
+                                    <span>A</span>
+                                {{/if}}
+                                {{#if (eq location '2')}}
+                                    <span>B</span>
+                                {{/if}}
+                                {{#if (eq location '3')}}
+                                    <span>C</span>
+                                {{/if}}
+                                {{#if (eq location '4')}}
+                                    <span>D</span>
+                                {{/if}}
+                            {{/with}}
+                        </td>
+                        <td class="table-center-align"><a class="item-control item-delete" title="{{ localize 'UNISYSTEM.Delete Item' }}"><i class="fas fa-trash"></i></a></td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+
+    </div>
+
+    <div class="gear-table">
+        <h2 class="header-with-button">
+            <button type="button" class="create-item" data-create="gear">+</button> 
+            <span>{{ localize "UNISYSTEM.Gear" }}</span>
+        </h2>
+        <table>
+            <thead>
+                <tr>
+                    <th class="table-left-align">{{ localize "UNISYSTEM.Name" }}</th>
+                    <th>{{ localize "UNISYSTEM.Qty" }}</th>
+                    <th>{{ localize "UNISYSTEM.Location" }}</th>
+                    <th class="trash"><span title="{{ localize 'UNISYSTEM.Delete Item' }}"><i class="fas fa-trash"></i></span></th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each actor.gear as |item id|}}
+                    <tr class="item" data-item-id="{{item._id}}">
+                        <td>
+                            <div class="item-name-flex-container">
+                                <div class="item-name">{{item.name}}</div>
+                            </div>
+                        </td>
+                        <td class="table-center-align">{{item.system.qty}}</td>
+                        <td class="table-center-align">
+                            {{#with item.system.location as |location|}}
+                                {{#if (eq location '0')}}
+                                    <span>*</span>
+                                {{/if}}
+                                {{#if (eq location '1')}}
+                                    <span>A</span>
+                                {{/if}}
+                                {{#if (eq location '2')}}
+                                    <span>B</span>
+                                {{/if}}
+                                {{#if (eq location '3')}}
+                                    <span>C</span>
+                                {{/if}}
+                                {{#if (eq location '4')}}
+                                    <span>D</span>
+                                {{/if}}
+                            {{/with}}
+                        </td>
+                        <td class="table-center-align"><a class="item-control item-delete" title="{{ localize 'UNISYSTEM.Delete Item' }}"><i class="fas fa-trash"></i></a></td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+
+    <div class="vehicles-table">
+        <h2 class="header-with-button">
+            <button type="button" class="create-item" data-create="vehicles">+</button> 
+            <span>{{ localize "UNISYSTEM.Vehicles & Accessories" }}</span>
+        </h2>
+        <table>
+            <thead>
+                <tr>
+                    <th class="table-left-align">{{ localize "UNISYSTEM.Name" }}</th>
+                    <th>{{ localize "UNISYSTEM.Qty" }}</th>
+                    <th>{{ localize "UNISYSTEM.Location" }}</th>
+                    <th class="trash"><span title="{{ localize 'UNISYSTEM.Delete Item' }}"><i class="fas fa-trash"></i></span></th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each actor.vehicles as |item id|}}
+                    <tr class="item" data-item-id="{{item._id}}">
+                        <td>
+                            <div class="item-name-flex-container">
+                                <div class="item-name">{{item.name}}</div>
+                            </div>
+                        </td>
+                        <td class="table-center-align">{{item.system.qty}}</td>
+                        <td class="table-center-align">
+                            {{#with item.system.location as |location|}}
+                                {{#if (eq location '0')}}
+                                    <span>*</span>
+                                {{/if}}
+                                {{#if (eq location '1')}}
+                                    <span>A</span>
+                                {{/if}}
+                                {{#if (eq location '2')}}
+                                    <span>B</span>
+                                {{/if}}
+                                {{#if (eq location '3')}}
+                                    <span>C</span>
+                                {{/if}}
+                                {{#if (eq location '4')}}
+                                    <span>D</span>
+                                {{/if}}
+                            {{/with}}
+                        </td>
+                        <td class="table-center-align"><a class="item-control item-delete" title="{{ localize 'UNISYSTEM.Delete Item' }}"><i class="fas fa-trash"></i></a></td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+</section>

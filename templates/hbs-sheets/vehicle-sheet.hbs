@@ -1,0 +1,114 @@
+<form class="{{cssClass}}" autocomplete="off">
+    {{log 'vehicle-sheet' this}} 
+    {{!-- Sheet Header --}}
+    <div class="sheet-flex-container">
+        <div class="sheet-sidebar">
+            <div class="header-container">
+                <div class="polaroid-container">
+                    {{#if polaroidold}}
+                    <img class="polaroid" src="systems/unisystembymmfo/images/polaroid_old.png">
+                    {{else}}
+                    <img class="polaroid" src="systems/unisystembymmfo/images/polaroid.png">
+                    {{/if}}
+                    <img class="profile-img" data-edit="img" src="{{actor.img}}">
+                    <div class="sheet-nav-container" hidden>
+                        <nav class="sheet-nav sheet-tabs tabs" data-group="primary" >
+                            <a class="item" data-tab="core">{{ localize "UNISYSTEM.Core" }}</a>
+                        </nav>
+                    </div>
+                    <div class="profile-tags-container">
+                        <div class="tags-flex-container"></div>
+                    </div>
+                </div>
+                <div class="header-info-container">
+                    <div class="info-container">
+                        <h1>
+                            <input class="charname" type="text" name="name" value="{{actor.name}}" placeholder="{{ localize 'UNISYSTEM.Name' }}">
+                        </h1>
+                        <div class="attribute-container">
+                            <h2 id="attributes-header">
+                                <div>{{ localize "UNISYSTEM.Primary Attributes" }}</div>
+                            </h2>
+                            <div class="resource-container">
+                                <div class="resource">
+                                    <button type="button">{{ localize "UNISYSTEM.Weight" }}</button>
+                                    <div class="resource-values attribute">
+                                        <input type="number" name="system.weight" value="{{actor.system.weight}}">
+                                    </div>
+                                </div>
+                                <div class="resource">
+                                    <button type="button">{{ localize "UNISYSTEM.Speed" }}</button>
+                                    <div class="resource-values attribute">
+                                        <input type="number" name="system.speed" value="{{actor.system.speed}}">
+                                    </div>
+                                </div>
+                                <div class="resource">
+                                    <button type="button">{{ localize "UNISYSTEM.Acceleration" }}</button>
+                                    <div class="resource-values attribute">
+                                        <input type="number" name="system.acceleration" value="{{actor.system.acceleration}}">
+                                    </div>
+                                </div>
+                                <div class="resource">
+                                    <button type="button">{{ localize "UNISYSTEM.Range" }}</button>
+                                    <div class="resource-values attribute">
+                                        <input type="number" name="system.range" value="{{actor.system.range}}">
+                                    </div>
+                                </div>
+                                <div class="resource">
+                                    <button type="button">{{ localize "UNISYSTEM.Toughness" }}</button>
+                                    <div class="resource-values attribute">
+                                        <input type="number" name="system.toughness" value="{{actor.system.toughness}}">
+                                    </div>
+                                </div>
+                                <div class="resource">
+                                    <button type="button">{{ localize "UNISYSTEM.Handling" }}</button>
+                                    <div class="resource-values attribute">
+                                        <input type="number" name="system.handling" value="{{actor.system.handling}}">
+                                    </div>
+                                </div>
+                                <div class="resource">
+                                    <button type="button">{{ localize "UNISYSTEM.Damage Cpty" }}</button>
+                                    <div class="resource-values attribute">
+                                        <input type="number" name="system.damage_capacity" value="{{actor.system.damage_capacity}}">
+                                    </div>
+                                </div>
+                                <div class="resource">
+                                    <button type="button">{{ localize "UNISYSTEM.Armor Value" }}</button>
+                                    <div class="resource-values attribute">
+                                        <input type="number" name="system.armor_value" value="{{actor.system.armor_value}}">
+                                    </div>
+                                </div>
+                                <div class="resource">
+                                    <button type="button">{{ localize "UNISYSTEM.Accuracy" }}</button>
+                                    <div class="resource-values attribute">
+                                        <input type="number" name="system.accuracy" value="{{actor.system.accuracy}}">
+                                    </div>
+                                </div>
+                                <div class="resource">
+                                    <button type="button">{{ localize "UNISYSTEM.Cost" }}</button>
+                                    <div class="resource-values attribute">
+                                        <input type="number" name="system.cost" value="{{actor.system.cost}}">
+                                    </div>
+                                </div>
+                                <div class="resource">
+                                    <button type="button">{{ localize "UNISYSTEM.Availability" }}</button>
+                                    <div class="resource-values attribute">
+                                        <input type="text" name="system.availability" value="{{actor.system.availability}}">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="sheet-body content">
+            {{#each tabs}}
+            <div class="tab" data-tab="{{label}}" data-group="primary-tabs">
+                Fixed content for tab {{title}}<br>
+                {{{content}}}
+            </div>
+            {{/each}}
+        </section>
+    </div>
+</form>

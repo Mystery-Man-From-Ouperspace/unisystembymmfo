@@ -172,7 +172,6 @@ export class unisystemCellSheet extends ActorSheet {
     }
 
     /*
-
     async _onDamageRoll(event) {
         event.preventDefault()
         let element = event.currentTarget

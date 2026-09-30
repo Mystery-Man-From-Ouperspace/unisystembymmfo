@@ -1,0 +1,131 @@
+<section 
+    {{log 'character-tab-equipment' this}} 
+    class='tab main {{tab.cssClass}}'
+    data-group='primary'
+    data-tab='character-tab-equipment'
+>
+
+    {{!-- Equipment Tab --}}
+    <div class="equipment-header">
+        <div class="encumbrance-resource">
+            <h2>{{ localize "UNISYSTEM.Lifting Capacity" }}</h2>
+            <div>{{actor.system.encumbrance.lifting_capacity}} lbs</div>
+        </div>
+        <div class="encumbrance-resource">
+            <h2>{{ localize "UNISYSTEM.Current Weight" }}</h2>
+            <div>{{actor.system.encumbrance.value}} lbs</div>
+        </div>
+        <div class="encumbrance-resource">
+            <h2>{{ localize "UNISYSTEM.Max Carry Limit" }}</h2>
+            <div>{{actor.system.encumbrance.max}} lbs</div>
+        </div>
+    </div>
+
+    <div class="weapon-table">
+        <h2 class="header-with-button">
+            <button type="button" class="create-item" data-create="weapon">+</button> 
+            <span>{{ localize "UNISYSTEM.Weapons" }}</span>
+        </h2>
+        <table>
+            <thead>
+                <tr>
+                    <th class="table-left-align">{{ localize "UNISYSTEM.Name" }}</th>
+                    <th>{{ localize "UNISYSTEM.Damage" }}</th>
+                    <th>{{ localize "UNISYSTEM.Capacity" }}</th>
+                    <th>{{ localize "UNISYSTEM.EV" }}</th>
+                    <th class="trash"><span title="{{ localize 'UNISYSTEM.Delete Item' }}"><i class="fas fa-trash"></i></span></th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each actor.weapon as |item id|}}
+                    <tr class="item" data-item-id="{{item._id}}">
+                        <td>
+                            <div class="item-name-flex-container">
+                                <i class="fas fa-dice-d20 damage-roll"></i>
+                                <div class="item-name" data-action="damageRoll" data-item-id="{{item._id}}">{{item.name}}</div>
+                            </div>
+                        </td>
+                        <td class="table-center-align">{{item.system.damage_string}}</td>
+                        <td>
+                            <div class="table-flex-cell">
+                                <div>{{item.system.capacity.value}}</div>
+                                /
+                                <div>{{item.system.capacity.max}}</div>
+                            </div>
+                        </td>
+                        <td class="table-center-align">{{item.system.encumbrance}}</td>
+                        <td class="trash table-center-align"><a class="item-control item-delete" data-action="delete" data-item-id="{{item._id}}" title="{{ localize 'UNISYSTEM.Delete Item' }}"><i class="fas fa-trash"></i></a></td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+
+    <div class="item-table">
+        <h2 class="header-with-button">
+            <button type="button" class="create-item" data-create="item">+</button> 
+            <span>{{ localize "UNISYSTEM.Equipped Items" }}</span>
+        </h2>
+        <table>
+            <thead>
+                <tr>
+                    <th class="table-left-align">{{ localize "UNISYSTEM.Name" }}</th>
+                    <th>{{ localize "UNISYSTEM.Qty" }}</th>
+                    <th>{{ localize "UNISYSTEM.Armor Value" }}</th>
+                    <th>{{ localize "UNISYSTEM.EV" }}</th>
+                    <th class="trash"><span title="{{ localize 'UNISYSTEM.Delete Item' }}"><i class="fas fa-trash"></i></span></th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each actor.equippedItem as |item id|}}
+                    <tr class="item" data-item-id="{{item._id}}">
+                        <td>
+                            <div class="item-name-flex-container">
+                                <input type="checkbox" class="toggleEquipped" data-action="toggleEquipped" data-item-id="{{item._id}} {{checked item.system.equipped}}>
+                                <div class="item-name" data-action="edit" data-item-id="{{item._id}}">{{item.name}}</div>
+                            </div>
+                        </td>
+                        <td class="table-center-align">{{item.system.qty}}</td>
+                        <td class="table-center-align armor-button-cell">
+                            <button type="button" data-action="armorButtonCell" data-item-id="{{item._id}}">{{item.system.armor_value}}</button>
+                        </td>
+                        <td class="table-center-align">{{item.system.encumbrance}}</td>
+                        <td class="trash table-center-align"><a class="item-control item-delete" data-action="delete" data-item-id="{{item._id}}" title="{{ localize 'UNISYSTEM.Delete Item' }}"><i class="fas fa-trash"></i></a></td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+
+    <div class="item-table">
+        <h2 class="header-with-button">
+            <button type="button" class="create-item" data-create="item">+</button> 
+            <span>{{ localize "UNISYSTEM.Items" }}</span>
+        </h2>
+        <table>
+            <thead>
+                <tr>
+                    <th class="table-left-align">{{ localize "UNISYSTEM.Name" }}</th>
+                    <th>{{ localize "UNISYSTEM.Qty" }}</th>
+                    <th>{{ localize "UNISYSTEM.EV" }}</th>
+                    <th class="trash"><span title="{{ localize 'UNISYSTEM.Delete Item' }}"><i class="fas fa-trash"></i></span></th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each actor.item as |item id|}}
+                    <tr class="item" data-item-id="{{item._id}}">
+                        <td>
+                            <div class="item-name-flex-container">
+                                <input type="checkbox" class="toggleEquipped" data-action="toggleEquipped" data-item-id="{{item._id}} {{checked item.system.equipped}}>
+                                <div class="item-name" data-action="edit" data-item-id="{{item._id}}">{{item.name}}</div>
+                            </div>
+                        </td>
+                        <td class="table-center-align">{{item.system.qty}}</td>
+                        <td class="table-center-align">{{item.system.encumbrance}}</td>
+                        <td class="trash table-center-align"><a class="item-control item-delete" data-action="delete" data-item-id="{{item._id}}" title="{{ localize 'UNISYSTEM.Delete Item' }}"><i class="fas fa-trash"></i></a></td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+</section>
