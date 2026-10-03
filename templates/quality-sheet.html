@@ -27,8 +27,12 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>{{ localize "UNISYSTEM.Points" }}</th>
+                            <th>{{ localize "UNISYSTEM.Cost" }}</th>
                             <td><input type="number" name="system.cost" value="{{item.system.cost}}"></td>
+                        </tr>
+                        <tr>
+                            <th>{{ localize "UNISYSTEM.Bonus*" }}</th>
+                            <td><input type="number" name="system.bonus" value="{{item.system.bonus}}"></td>
                         </tr>
                         <tr>
                             <th>{{ localize "UNISYSTEM.HP" }}+</th>
@@ -52,6 +56,7 @@
                         </tr>
                     </tbody>
                 </table>
+                <p><small>{{ localize "UNISYSTEM.*" }}</small></p>
             </div>
             <div class="item-description-sidebar">
                 <h2 class="item-desc">{{ localize "UNISYSTEM.Description" }}</h2>

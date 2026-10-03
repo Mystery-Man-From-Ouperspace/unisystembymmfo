@@ -38,6 +38,10 @@
   "UNISYSTEM.Armor Value": "Armor Value",
   "UNISYSTEM.Items": "Items",
 
+  "UNISYSTEM.Bonus*": "Bonus Points*",
+  "UNISYSTEM.Malus*": "Malus Points*",
+  "UNISYSTEM.*": "* If different from Cost",
+
   "UNISYSTEM.undefined": "undefined",
 
   "UNISYSTEM.PreHeroic": "Pre-heroic",
@@ -307,8 +311,12 @@
   "UNISYSTEM.witchcraft": "WitchCraft",
   "UNISYSTEM.conx": "Conspiracy X 2.0",
 
+  "UNISYSTEM.Use as Bonus instead": "Use as Bonus instead",
+  "UNISYSTEM.Use as Malus instead": "Use as Malus instead",
 
 
+
+  
   "CHAT": {
     "MODES": {
       "blind": "Blind to Chroniclers",

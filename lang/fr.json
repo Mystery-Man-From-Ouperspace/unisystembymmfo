@@ -40,6 +40,10 @@
 
   "UNISYSTEM.undefined": "indéfini",
 
+  "UNISYSTEM.Bonus*": "Points de bonus*",
+  "UNISYSTEM.Malus*": "Points de malus*",
+  "UNISYSTEM.*": "* Si différents du Coût",
+
   "UNISYSTEM.PreHeroic": "Pré-héroïque",
   "UNISYSTEM.Heroic": "Héroïque",
   "UNISYSTEM.Powered": "Puissant",
@@ -291,6 +295,10 @@
   "UNISYSTEM.afmbe": "AFMBE",
   "UNISYSTEM.witchcraft": "WitchCraft",
   "UNISYSTEM.conx": "Conspiracy X 2.0",
+
+  "UNISYSTEM.Use as Bonus instead": "Utiliser plutôt comme bonus",
+  "UNISYSTEM.Use as Malus instead": "Utiliser plutôt comme malus",
+
   
 
 
