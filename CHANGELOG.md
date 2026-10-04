@@ -1,3 +1,6 @@
+0.0.8 (to be available)
+- Added tags for quality used as malus an drawback used as bonus
+
 0.0.7
 - Added icons to actors' item sections
 - Added damage multiplier bonus to weapon items
