@@ -329,8 +329,8 @@ export class unisystemActorSheet extends ActorSheet {
                                         </td>
                                         <td class="toggleQuality">
                                             <label>
-                                                <input type="checkbox" id="toggleQualityBonus" value="text1">`+game.i18n.localize("UNISYSTEM.Use as Malus instead")
-                                            +`</label>
+                                                <input type="checkbox" id="toggleQualityBonus"><small>`+game.i18n.localize("UNISYSTEM.Use as Malus instead")+`</small>
+                                            </label>
                                         </td>
                                     </tr>
                                     <tr>
@@ -343,8 +343,8 @@ export class unisystemActorSheet extends ActorSheet {
                                         </td>
                                         <td class="toggleDrawback">
                                             <label>
-                                                <input type="checkbox" id="toggleDrawbackMalus" value="text2">`+game.i18n.localize("UNISYSTEM.Use as Bonus instead")
-                                            +`</label>
+                                                <input type="checkbox" id="toggleDrawbackMalus"><small>`+game.i18n.localize("UNISYSTEM.Use as Bonus instead")+`</small>
+                                            </label>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -453,7 +453,7 @@ export class unisystemActorSheet extends ActorSheet {
         }, dialogOptions)
 
         d.render(true, {
-            width: 650,
+            width: 550,
             height: "auto"
         })
     }
