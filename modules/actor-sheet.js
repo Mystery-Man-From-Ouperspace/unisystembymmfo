@@ -380,6 +380,8 @@ export class unisystemActorSheet extends ActorSheet {
                         // Set toggled values
                         qualityValue = qualityToggled ? -1*qualityValue : qualityValue
                         drawbackValue = drawbackToggled ? Math.abs(drawbackValue) : drawbackValue
+                        let ratherAsABonus = drawbackValue > 0 ? game.i18n.localize("UNISYSTEM.Rather as Bonus") : ""
+                        let ratherAsAMalus = qualityValue < 0 ? game.i18n.localize("UNISYSTEM.Rather as Malus") : ""
 
                         // Calculate total modifier to roll
                         let rollMod = attributeValue + skillValue + qualityValue + userInputModifier + drawbackValue + statusPenalties
@@ -397,8 +399,8 @@ export class unisystemActorSheet extends ActorSheet {
                         let ruleOfDiv = ``
                         if (userInputModifier != 0) {tags.push(`<div>`+game.i18n.localize("UNISYSTEM.User Modifier")+` ${userInputModifier >= 0 ? "+" : ''}${userInputModifier}</div>`)}
                         if (selectedSkill != undefined) {tags.push(`<div>${selectedSkill.name} ${selectedSkill.system.level >= 0 ? '+' : ''}${selectedSkill.system.level}</div>`)}
-                        if (selectedQuality != undefined) {tags.push(`<div>${selectedQuality.name} ${selectedQuality.system.cost >= 0 ? '+' : ''}${selectedQuality.system.cost}</div>`)}
-                        if (selectedDrawback != undefined) {tags.push(`<div>${selectedDrawback.name} ${selectedQuality.system.cost >= 0 ? '-' : '+'}${Math.abs(selectedDrawback.system.cost)}</div>`)}
+                        if (selectedQuality != undefined) {tags.push(`<div>${selectedQuality.name} ${qualityValue > 0 ? '+' : (qualityValue == 0 ? "" : '-')}${Math.abs(qualityValue)} ${ratherAsAMalus}</div>`)}
+                        if (selectedDrawback != undefined) {tags.push(`<div>${selectedDrawback.name} ${drawbackValue > 0 ? '+' : (drawbackValue == 0 ? "" : '-')}${Math.abs(drawbackValue)} ${ratherAsABonus}</div>`)}
 
                         if (roll.result == 10) {
                             ruleOfDiv = `<h2 class="rule-of-chat-text">`+game.i18n.localize("UNISYSTEM.Rule of 10!")+`</h2>
