@@ -1,4 +1,4 @@
-0.0.8 (to be available)
+0.0.8
 - Added tags for quality used as malus an drawback used as bonus
 
 0.0.7
