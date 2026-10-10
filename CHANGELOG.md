@@ -1,5 +1,5 @@
 0.0.8
-- Added tags for quality used as malus an drawback used as bonus
+- Added tags for quality used as malus and drawback used as bonus
 
 0.0.7
 - Added icons to actors' item sections
