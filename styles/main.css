@@ -147,6 +147,7 @@
  .terraprimate .unisystembymmfo-dialog-menu h1,
  .terraprimate .unisystembymmfo-dialog-menu h2 {
      font-family: "WhosFrankRegular";
+     font-size: medium;
      width: 100%;
  }
 
@@ -742,19 +743,20 @@
      justify-content: center;
      font-family: "JollyLodgerRegular";
  }
-  .unisystembymmfo.witchcraft .encumbrance-resource {
+ .unisystembymmfo.witchcraft .encumbrance-resource {
      display: flex;
      flex-direction: column;
      align-items: center;
      justify-content: center;
      font-family: "KellsFLF";
  }
-   .unisystembymmfo.terraprimate .encumbrance-resource {
+ .unisystembymmfo.terraprimate .encumbrance-resource {
      display: flex;
      flex-direction: column;
      align-items: center;
      justify-content: center;
      font-family: "WhosFrankRegular";
+     font-size: medium;
  }
 
  .unisystembymmfo .encumbrance-resource div {
