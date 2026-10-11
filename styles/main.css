@@ -756,7 +756,7 @@
      align-items: center;
      justify-content: center;
      font-family: "WhosFrankRegular";
-     font-size: medium;
+     /* font-size: medium; */
  }
 
  .unisystembymmfo .encumbrance-resource div {

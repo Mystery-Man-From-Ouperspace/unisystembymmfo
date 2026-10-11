@@ -1,5 +1,6 @@
 0.0.9
 - Modified some small label things
+- Modified font size
 
 0.0.8
 - Added tags for quality used as malus and drawback used as bonus
