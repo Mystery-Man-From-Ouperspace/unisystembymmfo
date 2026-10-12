@@ -39,6 +39,18 @@
     "primaryTokenAttribute": "hp",
     "secondaryTokenAttribute": "endurance_points",
     "packs": [
+      {   
+        "name": "unisystem-lights",
+        "label": "Unisystem - Lights",
+        "system": "unisystembymmfo",
+        "path": "packs/unisystem-lights",
+        "type": "Item",
+        "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+        },
+        "flags": {}
+      },
       {
         "name": "zener-cards-color",
         "label": "Zener Cards (Color)",
