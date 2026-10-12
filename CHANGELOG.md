@@ -1,3 +1,6 @@
+0.1.0 (to be available)
+- Modified better visibility sheet-nav items font now white in dark mode
+
 0.0.9
 - Modified some small label things
 - Modified font size

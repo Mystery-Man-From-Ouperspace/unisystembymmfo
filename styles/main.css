@@ -664,6 +664,21 @@
      color: white;
      border: 1px solid black;
  }
+ 
+
+
+
+
+
+ .unisystembymmfo #coremenu,
+ .unisystembymmfo #equipmentmenu,
+ .unisystembymmfo #resourcesmenu {
+    color: white;
+}
+
+
+
+
 
  .unisystembymmfo #characterTypeSelect {
      font-family: "Industria";
@@ -996,6 +1011,23 @@ body.theme-light .unisystembymmfo .item-description-sidebar {
 .theme-light .unisystembymmfo.window-app.dialog select {
     color: black;
 }
+
+
+
+
+
+ body.theme-light .unisystembymmfo #coremenu,
+ body.theme-light .unisystembymmfo #equipmentmenu,
+ body.theme-light .unisystembymmfo #resourcesmenu {
+    color: rgb(0, 0, 0); 
+}
+
+
+
+
+
+
+
 
 body.theme-light .unisystembymmfo .item-name:hover {
     /* font-weight: bold; */
