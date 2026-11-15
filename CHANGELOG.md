@@ -28,4 +28,7 @@
 
 ---
 Bugs connus et non encore traités
+
 Not already corrected known bugs
+
+- To be done: Update to AppV2
